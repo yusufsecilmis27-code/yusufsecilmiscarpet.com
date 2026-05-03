@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    <!-- TEMEL META ETİKETLERİ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- YAZI TİPLERİ: Görseldeki imza stili için 'Great Vibes', gövde metinleri için modern 'Montserrat' -->
-    <link href="https://googleapis.com" rel="stylesheet">
-
-    <!-- SEO AYARLARI: Arama motorlarında üst sıralarda çıkmanı sağlar -->
-    <title>Yusuf Seçilmiş | 2x3 m Modern ve Klasik Halı Koleksiyonu</title>
-    <meta name="description" content="Yusuf Seçilmiş Halı Mağazası. 2x3 m (6m²) ebatlarında en şık salon ve oda halılarını keşfedin. WhatsApp üzerinden hızlı sipariş.">
-    <meta name="keywords" content="Yusuf Seçilmiş, halı, 2x3 halı, 6 metrekare halı, lüks halı modelleri, [Şehir] halı mağazası">
-    <meta name="author" content="Yusuf Seçilmiş">
+    <!-- SEO AYARLARI: Google'da üst sıralarda çıkmanı sağlar -->
+    <title>[Mağaza Adı] | 2x3 m Modern ve Klasik Halı Modelleri</title>
+    <meta name="description" content="[Mağaza Adı] halı koleksiyonunda 2x3 m (6m²) ebatlarında en şık modelleri keşfedin. WhatsApp üzerinden hızlı fiyat alabilir ve sipariş verebilirsiniz.">
+    <meta name="keywords" content="halı, 2x3 halı, 6 metrekare halı, salon halısı, [Şehir] halı mağazası, modern halı modelleri">
+    <meta name="author" content="[Mağaza Adı]">
     <meta name="robots" content="index, follow">
 
     <style>
-        /* TASARIM DEĞİŞKENLERİ: Renk paletin ve yazı tiplerin */
+        /* TASARIM DEĞİŞKENLERİ: Renk paletini buradan tek seferde değiştirebilirsin */
         :root {
-            --koyu: #363231;      /* Füme/Antrasit */
-            --acik: #f0f0ea;      /* Kemik/Kirli Beyaz */
-            --gri-ara: #e5e5df;   /* Galeri arka planı */
-            --whatsapp: #25d366;  /* WhatsApp Yeşili */
-            --el-yazisi: 'Great Vibes', cursive;
-            --modern-font: 'Montserrat', sans-serif;
+            --koyu: #363231;      /* Ana koyu renk (Füme) */
+            --acik: #f0f0ea;      /* Arka plan rengi (Kemik) */
+            --gri-ara: #e5e5df;   /* Kart ve galeri arka planı */
+            --whatsapp: #25d366;  /* WhatsApp yeşili */
         }
 
-        html { scroll-behavior: smooth; } /* Sayfa içi yumuşak kayma */
-
+        /* GENEL SAYFA AYARLARI */
+        html { scroll-behavior: smooth; } /* Menüye basınca yumuşak kayma sağlar */
         body {
-            font-family: var(--modern-font);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             background-color: var(--acik);
@@ -37,10 +33,10 @@
             line-height: 1.6;
         }
 
-        /* NAVİGASYON (MENÜ): Görseldeki hata düzeltildi, imza stili eklendi */
+        /* NAVİGASYON (MENÜ): Mobil uyumlu, yazıların kayması engellendi */
         nav {
             background-color: var(--koyu);
-            padding: 1.2rem 5%;
+            padding: 1rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -49,30 +45,25 @@
             z-index: 1000;
             box-shadow: 0 2px 10px rgba(0,0,0,0.3);
         }
-
         nav h1 { 
             color: var(--acik); 
             margin: 0; 
-            font-family: var(--el-yazisi); /* İmza yazı tipi */
-            font-size: 2.8rem; /* Görseldeki büyüklüğü yakalamak için */
-            font-weight: 400;
-            white-space: nowrap; 
+            font-size: 1.3rem; 
+            letter-spacing: 2px;
+            white-space: nowrap; /* Yazının iki satıra bölünmesini engeller */
         }
-
         .nav-links { display: flex; gap: 20px; }
-
         .nav-links a {
             color: var(--acik);
             text-decoration: none;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 1px;
+            font-weight: bold;
         }
 
-        /* HERO (KARŞILAMA) ALANI */
+        /* HERO (GİRİŞ) ALANI */
         .hero {
-            height: 65vh;
+            height: 60vh;
             background-color: var(--koyu);
             color: var(--acik);
             display: flex;
@@ -82,73 +73,49 @@
             text-align: center;
             padding: 0 20px;
         }
+        .hero h2 { font-size: 3rem; margin: 0; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; }
 
-        .hero h2 { 
-            font-family: var(--el-yazisi); 
-            font-size: 4.5rem; 
-            margin: 0; 
-            font-weight: 400;
-        }
-
-        .hero p { 
-            font-size: 1.1rem; 
-            letter-spacing: 3px; 
-            text-transform: uppercase; 
-            opacity: 0.8;
-            margin-top: -10px;
-        }
-
-        /* ÜRÜN KARTLARI VE YATAY HALI GALERİSİ */
+        /* ÜRÜN BÖLÜMÜ VE KARTLARI */
         .section { padding: 80px 5%; max-width: 1200px; margin: auto; }
-        
         .urun-karti {
             background: white;
-            margin-bottom: 60px;
-            border-radius: 20px;
+            margin-bottom: 50px;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-            border: 1px solid #eee;
+            border: 1px solid #ddd;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
         }
+        .urun-bilgi { padding: 30px; text-align: center; }
+        .urun-bilgi h4 { margin: 0; font-size: 1.6rem; color: var(--koyu); }
+        .urun-bilgi p { color: #666; font-size: 0.95rem; }
 
-        .urun-bilgi { padding: 35px; text-align: center; }
-
-        .urun-bilgi h4 { 
-            font-family: var(--el-yazisi); 
-            font-size: 2.5rem; 
-            margin: 0; 
-            color: var(--koyu);
-        }
-
-        .urun-bilgi p { color: #777; font-size: 1rem; margin-top: 5px; }
-
-        /* Galeri: 2x3 m halı oranına uygun yatay yapı */
+        /* YATAY HALI GALERİSİ: 2x3 m formuna göre ayarlandı */
         .galeri-konteyner {
             display: flex;
-            overflow-x: auto;
+            overflow-x: auto; /* Yana kaydırma özelliği */
             gap: 15px;
             padding: 20px;
             background: var(--gri-ara);
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory; /* Mobilde fotoğrafın ortalanmasını sağlar */
+            -webkit-overflow-scrolling: touch; /* Mobil kaydırma akıcılığı */
         }
-
         .galeri-konteyner img {
-            width: 500px;  /* 2x3 oranına uygun genişlik */
-            height: 333px; /* 2x3 oranına uygun yükseklik */
+            width: 500px;  /* 2x3 m halı için ideal genişlik */
+            height: 333px; /* 2x3 oranını koruyan yükseklik */
             object-fit: cover;
-            border-radius: 12px;
+            border-radius: 10px;
             scroll-snap-align: start;
             flex-shrink: 0;
-            background-color: #ddd;
+            background-color: #ccc;
         }
 
-        /* MOBİL UYUMLULUK: Menü ve yazı boyutları ayarı */
+        /* MOBİL UYUMLULUK AYARLARI (Media Queries) */
         @media (max-width: 768px) {
-            nav { flex-direction: column; gap: 10px; padding: 1rem; }
-            nav h1 { font-size: 2.2rem; }
-            .nav-links { gap: 10px; }
-            .hero h2 { font-size: 3rem; }
-            .galeri-konteyner img { width: 85vw; height: auto; }
+            nav { flex-direction: column; gap: 15px; text-align: center; } /* Logo üstte menü altta */
+            .nav-links { width: 100%; justify-content: center; }
+            .hero h2 { font-size: 2rem; }
+            .galeri-konteyner img { width: 85vw; height: auto; } /* Mobilde fotoğrafı ekrana sığdırır */
         }
 
         /* BUTONLAR VE WHATSAPP */
@@ -156,134 +123,114 @@
             display: inline-block;
             background-color: var(--koyu);
             color: var(--acik);
-            padding: 15px 40px;
+            padding: 14px 35px;
             text-decoration: none;
-            border-radius: 50px;
-            margin-top: 20px;
-            font-weight: 700;
+            border-radius: 8px;
+            margin-top: 15px;
             transition: 0.3s;
+            font-weight: bold;
         }
+        .btn:hover { opacity: 0.85; transform: scale(1.02); }
 
         .wp-sabit {
             position: fixed;
-            bottom: 25px;
-            right: 25px;
+            bottom: 20px;
+            right: 20px;
             background-color: var(--whatsapp);
             color: white;
             padding: 15px 25px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
             z-index: 2000;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
         }
 
-        footer { background: var(--koyu); color: var(--acik); text-align: center; padding: 60px 20px; }
+        footer { background: var(--koyu); color: var(--acik); text-align: center; padding: 50px; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
     <!-- MENÜ -->
     <nav>
-        <h1>Yusuf Seçilmiş</h1>
+        <h1>[MAĞAZA ADI] HALI</h1>
         <div class="nav-links">
             <a href="#anasayfa">Anasayfa</a>
-            <a href="#koleksiyon">Koleksiyon</a>
+            <a href="#koleksiyon">Ürünler</a>
             <a href="#iletisim">İletişim</a>
         </div>
     </nav>
 
-    <!-- GİRİŞ BÖLÜMÜ -->
+    <!-- ANASAYFA GİRİŞ -->
     <header id="anasayfa" class="hero">
-        <h2>Yusuf Seçilmiş</h2>
-        <p>Halıda Sanatın ve Kalitenin Adresi</p>
-        <a href="#koleksiyon" class="btn" style="background: var(--acik); color: var(--koyu);">Modelleri Gör</a>
+        <h2>Evinize Şıklık Katın</h2>
+        <p>En Seçkin 2x3 m (6m²) Halı Koleksiyonu</p>
+        <a href="#koleksiyon" class="btn" style="background: var(--acik); color: var(--koyu);">Koleksiyonu Gör</a>
     </header>
 
-    <!-- 5 ÜRÜNLÜK KATALOG BÖLÜMÜ -->
+    <!-- ÜRÜN LİSTESİ -->
     <section id="koleksiyon" class="section">
-        
+        <h3 style="text-align: center; font-size: 2.2rem; margin-bottom: 40px;">Öne Çıkan Modeller</h3>
+
         <!-- ÜRÜN 1 -->
         <div class="urun-karti">
             <div class="urun-bilgi">
-                <h4>Modern Kristal Seri</h4>
-                <p>200x300 cm | Leke Tutmaz Akrilik</p>
+                <h4>Modern Antrasit Halı</h4>
+                <p>Ebat: 200x300 cm | Leke Tutmaz Özel Doku</p>
             </div>
             <div class="galeri-konteyner">
-                <!-- Buraya her halı için 10 adet görsel ekleyebilirsin -->
-                <img src="urun1_1.jpg" alt="Yusuf Seçilmiş Modern Kristal 1">
-                <img src="urun1_2.jpg" alt="Yusuf Seçilmiş Modern Kristal 2">
-                <img src="urun1_3.jpg" alt="Yusuf Seçilmiş Modern Kristal 3">
-                <!-- ... 10'a kadar devam eder -->
+                <!-- Buraya 10 adet fotoğraf ekleyebilirsin -->
+                <img src="halı1_1.jpg" alt="Modern Antrasit Halı 2x3 m">
+                <img src="halı1_2.jpg" alt="Modern Antrasit Halı Detay">
+                <img src="halı1_3.jpg" alt="Modern Antrasit Halı Yakın Çekim">
             </div>
         </div>
 
         <!-- ÜRÜN 2 -->
         <div class="urun-karti">
             <div class="urun-bilgi">
-                <h4>Vintage Eskitme Koleksiyonu</h4>
-                <p>200x300 cm | Pamuk Tabanlı Doğal Doku</p>
+                <h4>Klasik Osmanlı Serisi</h4>
+                <p>Ebat: 200x300 cm | İpek Tuşeli Bambu Halı</p>
             </div>
             <div class="galeri-konteyner">
-                <img src="urun2_1.jpg" alt="Vintage Eskitme Halı 1">
-                <img src="urun2_2.jpg" alt="Vintage Eskitme Halı 2">
+                <img src="halı2_1.jpg" alt="Klasik Osmanlı Halı 1">
+                <img src="halı2_2.jpg" alt="Klasik Osmanlı Halı 2">
             </div>
         </div>
 
-        <!-- ÜRÜN 3 -->
+        <!-- ÜRÜN 3, 4 ve 5 de aynı yapıda eklenebilir -->
+        <!-- Kısa tutmak için buraya örnek bir tane daha ekliyorum -->
         <div class="urun-karti">
             <div class="urun-bilgi">
-                <h4>Bambu Saray Serisi</h4>
-                <p>200x300 cm | Parlak ve Yumuşak Doku</p>
+                <h4>İskandinav Desen Halı</h4>
+                <p>Ebat: 200x300 cm | Kaymaz Tabanlı</p>
             </div>
             <div class="galeri-konteyner">
-                <img src="urun3_1.jpg" alt="Bambu Saray Halı 1">
-            </div>
-        </div>
-
-        <!-- ÜRÜN 4 -->
-        <div class="urun-karti">
-            <div class="urun-bilgi">
-                <h4>İskandinav Minimalist</h4>
-                <p>200x300 cm | Geometrik Desenler</p>
-            </div>
-            <div class="galeri-konteyner">
-                <img src="urun4_1.jpg" alt="İskandinav Halı 1">
-            </div>
-        </div>
-
-        <!-- ÜRÜN 5 -->
-        <div class="urun-karti">
-            <div class="urun-bilgi">
-                <h4>Klasik Anadolu Motifi</h4>
-                <p>200x300 cm | Geleneksel Çizgiler</p>
-            </div>
-            <div class="galeri-konteyner">
-                <img src="urun5_1.jpg" alt="Klasik Anadolu Halı 1">
+                <img src="halı3_1.jpg" alt="İskandinav Halı">
             </div>
         </div>
 
     </section>
 
-    <!-- İLETİŞİM -->
+    <!-- İLETİŞİM VE ADRES -->
     <section id="iletisim" class="section" style="text-align: center; background: var(--gri-ara);">
-        <h3 style="font-family: var(--el-yazisi); font-size: 3rem; margin: 0;">İletişim</h3>
-        <p>Halılarımız hakkında detaylı bilgi için bize ulaşın.</p>
-        <p><strong>Adres:</strong> [Mağaza Adresinizi Buraya Yazın]</p>
-        <a href="https://wa.me/+905445452967" class="btn">WhatsApp'tan Sorun</a>
+        <h3>Sipariş ve Bilgi</h3>
+        <p><strong>Mağaza Adresi:</strong> [Adresinizi Buraya Yazın]</p>
+        <p>Halılarımız hakkında stok ve fiyat bilgisi için WhatsApp üzerinden 7/24 yazabilirsiniz.</p>
+        <a href="https://wa.me/+905445452967" class="btn">Hemen Bilgi Al </a>
     </section>
 
-    <!-- FOOTER -->
+    <!-- AYAK BİLGİSİ -->
     <footer>
-        <p style="font-family: var(--el-yazisi); font-size: 2rem; margin: 0;">Yusuf Seçilmiş</p>
-        <p>&copy; 2024 Tüm Hakları Saklıdır. | SEO Uyumlu Halı Kataloğu</p>
+        <p>&copy; 2024 [Mağaza Adı]. Tüm Hakları Saklıdır.</p>
+        <p>SEO Uyumlu Halı Kataloğu</p>
     </footer>
 
-    <!-- SABİT WHATSAPP -->
-    <a href="https://wa.me?text=Merhaba Yusuf Bey, halı modelleriniz hakkında bilgi almak istiyorum." class="wp-sabit" target="_blank">
+    <!-- SABİT WHATSAPP BUTONU: Telefon numaranı yazmayı unutma -->
+    <a href="https://wa.me?text=Merhaba, halı modelleri hakkında bilgi almak istiyorum." class="wp-sabit" target="_blank">
         WhatsApp Destek
     </a>
 
