@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- TEMEL META ETİKETLERİ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO AYARLARI: Google'da üst sıralarda çıkmanı sağlar -->
+    <title>Yusuf Seçilmiş Carpet</title>
+    <meta name="description" content="[Mağaza Adı] halı koleksiyonunda 2x3 m (6m²) ebatlarında en şık modelleri keşfedin. WhatsApp üzerinden hızlı fiyat alabilir ve sipariş verebilirsiniz.">
+    <meta name="keywords" content="halı, 2x3 halı,Yusuf Seçilmiş Carpet, 6 metrekare halı, salon halısı, Gaziantep halı mağazası, modern halı modelleri">
+    <meta name="author" content="Yusuf Seçilmiş Carpet">
+    <meta name="robots" content="index, follow">
+
+    <style>
+        /* TASARIM DEĞİŞKENLERİ: Renk paletini buradan tek seferde değiştirebilirsin */
+        :root {
+            --koyu: #363231;      /* Ana koyu renk (Füme) */
+            --acik: #f0f0ea;      /* Arka plan rengi (Kemik) */
+            --gri-ara: #e5e5df;   /* Kart ve galeri arka planı */
+            --whatsapp: #25d366;  /* WhatsApp yeşili */
+        }
+
+        /* GENEL SAYFA AYARLARI */
+        html { scroll-behavior: smooth; } /* Menüye basınca yumuşak kayma sağlar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--acik);
+            color: var(--koyu);
+            line-height: 1.6;
+        }
+
+        /* NAVİGASYON (MENÜ): Mobil uyumlu, yazıların kayması engellendi */
+        nav {
+            background-color: var(--koyu);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        nav h1 { 
+            color: var(--acik); 
+            margin: 0; 
+            font-size: 1.3rem; 
+            letter-spacing: 2px;
+            white-space: nowrap; /* Yazının iki satıra bölünmesini engeller */
+        }
+        .nav-links { display: flex; gap: 20px; }
+        .nav-links a {
+            color: var(--acik);
+            text-decoration: none;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* HERO (GİRİŞ) ALANI */
+        .hero {
+            height: 60vh;
+            background-color: var(--koyu);
+            color: var(--acik);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h2 { font-size: 3rem; margin: 0; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; }
+
+        /* ÜRÜN BÖLÜMÜ VE KARTLARI */
+        .section { padding: 80px 5%; max-width: 1200px; margin: auto; }
+        .urun-karti {
+            background: white;
+            margin-bottom: 50px;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .urun-bilgi { padding: 30px; text-align: center; }
+        .urun-bilgi h4 { margin: 0; font-size: 1.6rem; color: var(--koyu); }
+        .urun-bilgi p { color: #666; font-size: 0.95rem; }
+
+        /* YATAY HALI GALERİSİ: 2x3 m formuna göre ayarlandı */
+        .galeri-konteyner {
+            display: flex;
+            overflow-x: auto; /* Yana kaydırma özelliği */
+            gap: 15px;
+            padding: 20px;
+            background: var(--gri-ara);
+            scroll-snap-type: x mandatory; /* Mobilde fotoğrafın ortalanmasını sağlar */
+            -webkit-overflow-scrolling: touch; /* Mobil kaydırma akıcılığı */
+        }
+        .galeri-konteyner img {
+            width: 500px;  /* 2x3 m halı için ideal genişlik */
+            height: 333px; /* 2x3 oranını koruyan yükseklik */
+            object-fit: cover;
+            border-radius: 10px;
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            background-color: #ccc;
+        }
+
+        /* MOBİL UYUMLULUK AYARLARI (Media Queries) */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; gap: 15px; text-align: center; } /* Logo üstte menü altta */
+            .nav-links { width: 100%; justify-content: center; }
+            .hero h2 { font-size: 2rem; }
+            .galeri-konteyner img { width: 85vw; height: auto; } /* Mobilde fotoğrafı ekrana sığdırır */
+        }
+
+        /* BUTONLAR VE WHATSAPP */
+        .btn {
+            display: inline-block;
+            background-color: var(--koyu);
+            color: var(--acik);
+            padding: 14px 35px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 15px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .btn:hover { opacity: 0.85; transform: scale(1.02); }
+
+        .wp-sabit {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--whatsapp);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        footer { background: var(--koyu); color: var(--acik); text-align: center; padding: 50px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <!-- MENÜ -->
+    <nav>
+        <h1>Yusuf Seçilmiş Carpet</h1>
+        <div class="nav-links">
+            <a href="#anasayfa">Anasayfa</a>
+            <a href="#koleksiyon">Ürünler</a>
+            <a href="#iletisim">İletişim</a>
+        </div>
+    </nav>
+
+    <!-- ANASAYFA GİRİŞ -->
+    <header id="anasayfa" class="hero">
+        <h2>Evinize Şıklık Katın</h2>
+        <a href="#koleksiyon" class="btn" style="background: var(--acik); color: var(--koyu);">Koleksiyonu Gör</a>
+    </header>
+
+    <!-- ÜRÜN LİSTESİ -->
+    <section id="koleksiyon" class="section">
+        <h3 style="text-align: center; font-size: 2.2rem; margin-bottom: 40px;">Öne Çıkan Modeller</h3>
+
+        <!-- ÜRÜN 1 -->
+        <div class="urun-karti">
+            <div class="urun-bilgi">
+                <h4>Modern Antrasit Halı</h4>
+                <p>Ebat: 200x300 cm | Leke Tutmaz Özel Doku</p>
+            </div>
+            <div class="galeri-konteyner">
+                <!-- Buraya 10 adet fotoğraf ekleyebilirsin -->
+                <img src="halı1_1.jpg" alt="Modern Antrasit Halı 2x3 m">
+                <img src="halı1_2.jpg" alt="Modern Antrasit Halı Detay">
+                <img src="halı1_3.jpg" alt="Modern Antrasit Halı Yakın Çekim">
+            </div>
+        </div>
+
+        <!-- ÜRÜN 2 -->
+        <div class="urun-karti">
+            <div class="urun-bilgi">
+                <h4>Klasik Osmanlı Serisi</h4>
+                <p>Ebat: 200x300 cm | İpek Tuşeli Bambu Halı</p>
+            </div>
+            <div class="galeri-konteyner">
+                <img src="halı2_1.jpg" alt="Klasik Osmanlı Halı 1">
+                <img src="halı2_2.jpg" alt="Klasik Osmanlı Halı 2">
+            </div>
+        </div>
+
+        <!-- ÜRÜN 3, 4 ve 5 de aynı yapıda eklenebilir -->
+        <!-- Kısa tutmak için buraya örnek bir tane daha ekliyorum -->
+        <div class="urun-karti">
+            <div class="urun-bilgi">
+                <h4>İskandinav Desen Halı</h4>
+                <p>Ebat: 200x300 cm | Kaymaz Tabanlı</p>
+            </div>
+            <div class="galeri-konteyner">
+                <img src="halı3_1.jpg" alt="İskandinav Halı">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- İLETİŞİM VE ADRES -->
+    <section id="iletisim" class="section" style="text-align: center; background: var(--gri-ara);">
+        <h3>Sipariş ve Bilgi</h3>
+        <p><strong>Telefon:</strong>+905445452967</p>
+        <p>Halılarımız hakkında stok ve fiyat bilgisi için WhatsApp üzerinden 7/24 yazabilirsiniz.</p>
+        <a href="https://wa.me" class="btn">Hemen Bilgi Al.</a>
+    </section>
+
+    <!-- AYAK BİLGİSİ -->
+    <footer>
+        <p>&copy; 2026 | Yusuf Seçilmiş Carpet | Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- SABİT WHATSAPP BUTONU: Telefon numaranı yazmayı unutma -->
+    <a href="https://wa.me?text=Merhaba, halı modelleri hakkında bilgi almak istiyorum." class="wp-sabit" target="_blank">
+        WhatsApp Destek
+    </a>
+
+</body>
+</html>
