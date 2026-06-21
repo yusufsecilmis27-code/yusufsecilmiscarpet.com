@@ -3,606 +3,528 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yusuf Seçilmiş Carpet | Toptan Halı Satış</title>
+<meta name="description" content="Yusuf Seçilmiş Carpet - Toptan halı koleksiyonları ve B2B ihracat çözümleri.">
+<meta name="theme-color" content="#1a1615">
 
-<title>Yusuf Seçilmiş Carpet</title>
-
-<meta name="description" content="Premium halı koleksiyonları">
-<meta name="theme-color" content="#2f2a28">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-
-:root{
-    --koyu:#2f2a28;
-    --acik:#f5f2ee;
-    --gri:#e7e2dc;
-    --wp:#25d366;
+:root {
+    --b2b-dark: #111111;
+    --b2b-gold: #c5a880;
+    --b2b-light: #fdfcfb;
+    --card-border: #e8e4df;
+    --text-main: #2b2523;
+    --text-muted: #6e6562;
+    --wp-green: #25d366;
+    --fb-blue: #1877f2;
+    --gri: #e7e2dc;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--b2b-light); color: var(--text-main); }
+html { scroll-behavior: smooth; }
 
-body{
-    font-family:Segoe UI,sans-serif;
-    background:var(--acik);
-    color:var(--koyu);
+/* KURUMSAL NAV */
+nav {
+    position: sticky; top: 0; z-index: 999;
+    background: var(--b2b-dark);
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 6%; border-bottom: 2px solid var(--b2b-gold);
 }
-
-html{
-    scroll-behavior:smooth;
-}
-
-/* MENÜ */
-
-nav{
-    position:sticky;
-    top:0;
-    z-index:999;
-    background:#2f2a28;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 6%;
-}
-
-.logo{
-    color:white;
-    font-size:1.4rem;
-    font-weight:bold;
-}
-
-.nav-links{
-    display:flex;
-    gap:20px;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    font-weight:600;
-}
+.logo { font-family: 'Cormorant Garamond', serif; color: #fff; font-size: 1.8rem; font-weight: 700; }
+.logo span { color: var(--b2b-gold); }
 
 /* HERO */
+.hero {
+    min-height: 45vh;
+    background: linear-gradient(rgba(17,17,17,0.7), rgba(17,17,17,0.9)), url("hero.jpg") center/cover;
+    display: flex; justify-content: center; align-items: center; text-align: center; color: white;
+    padding: 20px;
+}
+.hero-content h1 { font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; margin-bottom: 15px; }
+.hero-content p { font-size: 1.1rem; color: #d0c9c0; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
 
-.hero{
-    min-height:90vh;
-    background:
-    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("hero.jpg") center/cover;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:white;
-    padding:20px;
+.btn-b2b-primary {
+    display: inline-block; background: var(--b2b-gold); color: var(--b2b-dark);
+    padding: 16px 32px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; transition: .3s;
+}
+.btn-b2b-whatsapp-hero {
+    display: inline-block; background: var(--wp-green); color: white;
+    padding: 16px 32px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; margin-left: 15px; transition: .3s;
+}
+.btn-b2b-primary:hover { background: white; }
+.btn-b2b-whatsapp-hero:hover { background: white; color: var(--wp-green); }
+
+/* TOPTAN GÜVEN SAYAÇLARI */
+.stats-bar {
+    display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; text-align: center;
+    background: #1a1a1a; color: white; padding: 25px 6%;
+}
+.stat-item h4 { color: var(--b2b-gold); font-size: 1.5rem; font-weight: 700; }
+.stat-item p { font-size: 0.85rem; color: #aaa; text-transform: uppercase; margin-top: 4px; }
+
+/* KATALOG */
+.catalog-container { padding: 60px 6%; max-width: 1400px; margin: auto; }
+.catalog-header { text-align: center; margin-bottom: 50px; }
+.catalog-header h2 { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; }
+
+/* KART VE BİLGİ ALANLARI */
+.urun-blok {
+    background: white; margin-bottom: 50px; border-radius: 4px; border: 1px solid var(--card-border); overflow: hidden;
+}
+.b2b-info-panel {
+    padding: 30px; display: flex; justify-content: space-between; align-items: center; background: #faf9f7; border-bottom: 1px solid #f0eae1;
+}
+.b2b-title-area h3 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 600; margin-bottom: 5px; }
+.b2b-title-area p { color: var(--text-muted); font-size: 0.9rem; }
+
+.b2b-specs-strip { display: flex; gap: 30px; flex-wrap: wrap; }
+.spec-box { text-align: right; }
+.spec-box .label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); display: block; margin-bottom: 2px; }
+.spec-box .value { font-weight: 600; font-size: 0.9rem; color: var(--b2b-dark); }
+
+/* ÜRÜN GALERİSİ */
+.galeri {
+    display: flex; gap: 15px; overflow-x: auto; padding: 25px 25px 10px 25px; background: var(--gri); scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+}
+.galeri img {
+    width: 420px; height: 520px; object-fit: cover; border-radius: 6px; flex-shrink: 0; scroll-snap-align: start; transition: .3s;
 }
 
-.hero h1{
-    font-size:4rem;
-    margin-bottom:15px;
-}
-
-.hero p{
-    font-size:1.2rem;
-    margin-bottom:25px;
-}
-
-.btn{
-    display:inline-block;
-    background:var(--koyu);
-    color:white;
-    padding:14px 30px;
-    border-radius:10px;
-    text-decoration:none;
-    transition:.3s;
-    font-weight:bold;
-}
-
-.btn:hover{
-    transform:translateY(-4px);
-}
-
-.hero-btn{
-    background:white;
-    color:var(--koyu);
-}
-
-/* SECTION */
-
-.section{
-    padding:90px 6%;
-    max-width:1300px;
-    margin:auto;
-}
-
-.section-title{
-    text-align:center;
-    font-size:2.5rem;
-    margin-bottom:50px;
-}
-
-/* ÜRÜN */
-
-.urun{
-    background:white;
-    margin-bottom:60px;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.urun:hover{
-    transform:translateY(-5px);
-}
-
-.urun-bilgi{
-    padding:30px;
-    text-align:center;
-}
-
-.urun-bilgi h2{
-    margin-bottom:10px;
-    font-size:2rem;
-}
-
-.urun-bilgi p{
-    margin-bottom:20px;
-    color:#666;
-}
-
-.galeri{
-    display:flex;
-    gap:15px;
-    overflow-x:auto;
-    padding:20px;
-    background:var(--gri);
-    scroll-snap-type:x mandatory;
-}
-
-.galeri img{
-    width:420px;
-    height:520px;
-    object-fit:cover;
-    border-radius:12px;
-    flex-shrink:0;
-    scroll-snap-align:start;
-    transition:.3s;
-}
-
-.galeri img:hover{
-    transform:scale(1.02);
-}
-
-/* İLETİŞİM */
-
-.iletisim{
-    background:var(--gri);
-    border-radius:20px;
-    padding:60px 20px;
-    text-align:center;
-}
-
-.sosyal{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    margin-top:25px;
-    flex-wrap:wrap;
+/* KAYDIRMA İPUCU YAZISI */
+.galeri-ipucu {
+    background: var(--gri); text-align: center; padding-bottom: 20px;
+    color: var(--text-muted); font-size: 0.85rem; font-weight: 500;
+    letter-spacing: 0.5px; display: flex; justify-content: center; align-items: center; gap: 6px;
 }
 
 /* FOOTER */
+.footer-b2b { background: var(--b2b-dark); color: white; padding: 60px 6% 30px 6%; margin-top: 80px; border-top: 3px solid var(--b2b-gold); }
+.footer-content { max-width: 1300px; margin: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 40px; }
+.footer-column h3 { font-family: 'Cormorant Garamond', serif; color: var(--b2b-gold); font-size: 1.6rem; margin-bottom: 20px; }
+.footer-column p, .footer-column a { color: #ccc; font-size: 0.9rem; line-height: 1.6; text-decoration: none; display: block; margin-bottom: 10px; }
+.footer-column a:hover { color: var(--b2b-gold); }
 
-footer{
-    background:var(--koyu);
-    color:white;
-    text-align:center;
-    padding:40px;
-    margin-top:60px;
+/* SOSYAL MEDYA BUTONLARI */
+.social-links { display: flex; gap: 12px; margin-top: 15px; flex-wrap: wrap; }
+.social-btn { color: white !important; padding: 12px 24px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; border: none; transition: .3s; letter-spacing: 0.5px; text-decoration: none; }
+.social-btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+
+.btn-instagram { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); }
+.btn-facebook { background-color: var(--fb-blue); }
+.btn-whatsapp { background-color: var(--wp-green); }
+
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 25px; text-align: center; color: #777; font-size: 0.85rem; }
+
+.wp-sabit {
+    position: fixed; right: 25px; bottom: 25px; background: var(--wp-green); color: white;
+    padding: 16px 28px; border-radius: 50px; text-decoration: none; font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); z-index: 9999;
 }
 
-/* WP */
-
-.wp-sabit{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    background:var(--wp);
-    color:white;
-    text-decoration:none;
-    padding:15px 24px;
-    border-radius:50px;
-    font-weight:bold;
-    box-shadow:0 10px 20px rgba(0,0,0,.25);
+/* MOBİL OPTİMİZASYON */
+@media (max-width: 992px) {
+    .b2b-info-panel { flex-direction: column; align-items: flex-start; gap: 20px; }
+    .b2b-specs-strip { width: 100%; justify-content: space-between; border-top: 1px dashed #ddd; padding-top: 15px; }
+    .spec-box { text-align: left; }
+    .footer-content { grid-template-columns: repeat(1, 1fr); gap: 30px; }
 }
-
-/* MOBİL */
-
-@media(max-width:768px){
-
-    nav{
-        flex-direction:column;
-        gap:15px;
-    }
-
-    .hero h1{
-        font-size:2.5rem;
-    }
-
-    .galeri img{
-        width:85vw;
-        height:auto;
-    }
-
+@media (max-width: 768px) {
+    nav { padding: 15px; }
+    .hero-content h1 { font-size: 2.3rem; }
+    .hero-content p { font-size: 0.95rem; }
+    .btn-b2b-whatsapp-hero { margin-left: 0; margin-top: 10px; display: block; }
+    .btn-b2b-primary { display: block; }
+    .stats-bar { display: grid; grid-template-columns: repeat(2, 1fr); padding: 20px; }
+    
+    .galeri img { width: 78vw; height: 380px; }
+    .galeri { padding: 15px 15px 5px 15px; gap: 10px; }
 }
-
 </style>
 </head>
-
 <body>
 
-<!-- MENÜ -->
-
 <nav>
-
-<div class="logo">
-Yusuf Seçilmiş Carpet
-</div>
-
-<div class="nav-links">
-<a href="#anasayfa">Anasayfa</a>
-<a href="#urunler">Ürünler</a>
-<a href="#iletisim">İletişim</a>
-</div>
-
+    <div class="logo">Yusuf Seçilmiş <span>Carpet</span></div>
 </nav>
 
-<!-- HERO -->
-
-<header class="hero" id="anasayfa">
-
-<div>
-
-<h1>Premium Halı Koleksiyonu</h1>
-
-<p>
-Modern • Klasik • Lüks Tasarımlar
-</p>
-
-<a href="#urunler" class="btn hero-btn">
-Koleksiyonu Gör
-</a>
-
-</div>
-
+<header class="hero">
+    <div class="hero-content">
+        <h1>Toptan Halı Sipariş Portalı</h1>
+        <p>Mağazalar ve ihracatçılar için yüksek üretim kapasitesi, hazır stok ve hızlı sevkiyat avantajı.</p>
+        <a href="#katalog" class="btn-b2b-primary">Ürünleri İncele</a>
+        <a href="https://wa.me/905445452967?text=Merhaba,%20toptan%20güncel%20halı%20kataloğunuzu%20ve%20fiyat%20listenizi%20alabilir%20miyim?" target="_blank" class="btn-b2b-whatsapp-hero">WhatsApp Katalog İsteyin</a>
+    </div>
 </header>
 
-<!-- ÜRÜNLER -->
-
-<section class="section" id="urunler">
-
-<h1 class="section-title">
-Öne Çıkan Koleksiyonlar
-</h1>
-
-<!-- 1500 REEDS -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>1500 Reeds</h2>
-
-<p>
-Premium yoğun dokuma halı koleksiyonu
-</p>
-
-<a href="https://wa.me/905445452967?text=1500%20Reeds%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="1500reeds.jpeg">
-<img src="1500reeds1.jpeg">
-<img src="1500reeds2.jpeg">
-<img src="1500reeds3.jpeg">
-<img src="1500reeds4.jpeg">
-<img src="1500reeds5.jpeg">
-<img src="1500reeds6.jpeg">
-<img src="1500reeds7.jpeg">
-<img src="1500reeds8.jpeg">
-<img src="1500reeds9.jpeg">
-<img src="1500reeds10.jpeg">
-<img src="1500reeds11.jpeg">
-<img src="1500reeds12.jpeg">
-<img src="1500reeds13.jpeg">
-<img src="1500reeds14.jpeg">
-<img src="1500reeds15.jpeg">
-
-</div>
-
-</div>
-
-<!-- BUKLE İSKANDİNAV -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>Bukle İskandinav</h2>
-
-<p>
-Minimal ve modern İskandinav koleksiyonu
-</p>
-
-<a href="https://wa.me/905445452967?text=Bukle%20İskandinav%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="bukleiskandinav (1).jpeg">
-<img src="bukleiskandinav (2).jpeg">
-<img src="bukleiskandinav (3).jpeg">
-<img src="bukleiskandinav (4).jpeg">
-<img src="bukleiskandinav (5).jpeg">
-<img src="bukleiskandinav (6).jpeg">
-<img src="bukleiskandinav (7).jpeg">
-<img src="bukleiskandinav (8).jpeg">
-<img src="bukleiskandinav (9).jpeg">
-<img src="bukleiskandinav (10).jpeg">
-<img src="bukleiskandinav (11).jpeg">
-<img src="bukleiskandinav (12).jpeg">
-<img src="bukleiskandinav (13).jpeg">
-<img src="bukleiskandinav (14).jpeg">
-<img src="bukleiskandinav (15).jpeg">
-
-</div>
-
-</div>
-
-<!-- FLOSH -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>Flosh Polyester Modern</h2>
-
-<p>
-Yumuşak doku ve modern desenler
-</p>
-
-<a href="https://wa.me/905445452967?text=Flosh%20Polyester%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="floshpolyestermodern (1).jpeg">
-<img src="floshpolyestermodern (2).jpeg">
-<img src="floshpolyestermodern (3).jpeg">
-<img src="floshpolyestermodern (4).jpeg">
-<img src="floshpolyestermodern (5).jpeg">
-<img src="floshpolyestermodern (6).jpeg">
-<img src="floshpolyestermodern (7).jpeg">
-<img src="floshpolyestermodern (8).jpeg">
-<img src="floshpolyestermodern (9).jpeg">
-<img src="floshpolyestermodern (10).jpeg">
-<img src="floshpolyestermodern (11).jpeg">
-<img src="floshpolyestermodern (12).jpeg">
-<img src="floshpolyestermodern (13).jpeg">
-<img src="floshpolyestermodern (14).jpeg">
-<img src="floshpolyestermodern (15).jpeg">
-
-</div>
-
-</div>
-
-<!-- KAYMAZ TABAN -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>Kaymaz Taban</h2>
-
-<p>
-Kaymaz tabanlı günlük kullanım halıları
-</p>
-
-<a href="https://wa.me/905445452967?text=Kaymaz%20Taban%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="kaymaztaban (1).jpeg">
-<img src="kaymaztaban (2).jpeg">
-<img src="kaymaztaban (3).jpeg">
-<img src="kaymaztaban (4).jpeg">
-<img src="kaymaztaban (5).jpeg">
-<img src="kaymaztaban (6).jpeg">
-<img src="kaymaztaban (7).jpeg">
-<img src="kaymaztaban (8).jpeg">
-<img src="kaymaztaban (9).jpeg">
-<img src="kaymaztaban (10).jpeg">
-<img src="kaymaztaban (11).jpeg">
-<img src="kaymaztaban (12).jpeg">
-<img src="kaymaztaban (13).jpeg">
-<img src="kaymaztaban (14).jpeg">
-<img src="kaymaztaban (15).jpeg">
-
-</div>
-
-</div>
-
-<!-- POLYSTER -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>Polyster Klasik</h2>
-
-<p>
-Klasik desenli premium koleksiyon
-</p>
-
-<a href="https://wa.me/905445452967?text=Polyster%20Klasik%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="polysterklasik (1).jpeg">
-<img src="polysterklasik (2).jpeg">
-<img src="polysterklasik (3).jpeg">
-<img src="polysterklasik (4).jpeg">
-<img src="polysterklasik (5).jpeg">
-<img src="polysterklasik (6).jpeg">
-<img src="polysterklasik (7).jpeg">
-<img src="polysterklasik (8).jpeg">
-<img src="polysterklasik (9).jpeg">
-
-</div>
-
-</div>
-
-<!-- TAFTING -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>Tafting</h2>
-
-<p>
-Özel modern tafting koleksiyonu
-</p>
-
-<a href="https://wa.me/905445452967?text=Tafting%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="tafting (1).jpeg">
-<img src="tafting (2).jpeg">
-<img src="tafting (3).jpeg">
-<img src="tafting (4).jpeg">
-<img src="tafting (5).jpeg">
-<img src="tafting (6).jpeg">
-
-</div>
-
-</div>
-
-<!-- 1000 REEDS -->
-
-<div class="urun">
-
-<div class="urun-bilgi">
-
-<h2>1000 Reeds</h2>
-
-<p>
-Yoğun dokulu premium seri
-</p>
-
-<a href="https://wa.me/905445452967?text=1000%20Reeds%20halı%20hakkında%20bilgi%20alabilir%20miyim"
-class="btn">
-Fiyat Sor
-</a>
-
-</div>
-
-<div class="galeri">
-
-<img src="1000reeds (1).jpeg">
-<img src="1000reeds (2).jpeg">
-<img src="1000reeds (3).jpeg">
-
-</div>
-
-</div>
-
+<section class="stats-bar">
+    <div class="stat-item"><h4>En Hızlı</h4><p>Hazır Stok & Sevkiyat</p></div>
+    <div class="stat-item"><h4>Sipariş</h4><p>Minimum Sipariş</p></div>
+    <div class="stat-item"><h4>Tüm Ebatlar</h4><p>Standart & Özel Ölçü</p></div>
+    <div class="stat-item"><h4>Fabrika</h4><p>Direkt Toptan Fiyat</p></div>
 </section>
 
-<!-- İLETİŞİM -->
+<main class="catalog-container" id="katalog">
+    <div class="catalog-header">
+        <h2>Toptan Üretim Kalemleri</h2>
+    </div>
 
-<section class="section">
+    <!-- SPOT & OUTLET FIRSAT PANELİ -->
+    <div class="urun-blok" style="border-color: #ff4d4d; background: #fffaf9;">
+        <div class="b2b-info-panel" style="background: #fff0ef; border-bottom: 1px solid #ffe0de;">
+            <div class="b2b-title-area">
+                <h3 style="color: #d63031; display: flex; align-items: center; gap: 8px;">
+                    🔥 Spot & Outlet Fırsat Ürünleri
+                </h3>
+                <p style="color: #636e72;">Seri Sonu, Defolu, İptal Kalan ve Revize Toptan Halı Stokları</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box" style="text-align: right;">
+                    <span class="label" style="color: #d63031; font-weight: 700;">Durum</span>
+                    <span class="value" style="color: #2d3436;">Anlık Değişken Stok</span>
+                </div>
+                <div class="spec-box" style="text-align: right;">
+                    <span class="label" style="color: #d63031; font-weight: 700;">Fiyat</span>
+                    <span class="value" style="color: #27ae60;">Maliyetine Satış</span>
+                </div>
+            </div>
+        </div>
+        
+        <div style="padding: 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+            <div style="max-width: 750px;">
+                <p style="font-size: 0.95rem; line-height: 1.6; color: #2d3436; margin-bottom: 10px; font-weight: 500;">
+                    Fabrikamızda ve depolarımızda düzenli olarak <strong>Spot, Seri Sonu, İptal Siparişler</strong> veya hafif kusurlu <strong>1. Kalite / 2. Kalite Defolu</strong> outlet ürün grupları çıkmaktadır. 
+                </p>
+                <p style="font-size: 0.9rem; line-height: 1.6; color: #636e72;">
+                    ⚠️ Bu ürünler piyasa fiyatının çok altında, maliyetine yakın kapatma fiyatıyla toptan verilir. Stoklar anlık tükendiği için web sitesinde sabit görsel listelenememektedir.
+                </p>
+            </div>
+            <div style="flex-shrink: 0; min-width: 250px;">
+                <a href="https://wa.me/905445452967?text=Merhaba,%20güncel%20spot%20ve%20outlet%20halı%20stok%20listenizi,%20fotoğraflarını%20ve%20fiyatlarını%20öğrenebilir%20miyim?" 
+                   target="_blank" 
+                   class="social-btn btn-whatsapp" 
+                   style="text-align: center; display: block; padding: 16px; font-size: 0.9rem; border-radius: 4px; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2);">
+                    Güncel Spot Listesini İste
+                </a>
+            </div>
+        </div>
+    </div>
 
-<div class="iletisim" id="iletisim">
+    <!-- TOPTAN ALIM KAMPANYA PANELİ -->
+    <div class="urun-blok" style="border-color: #e67e22; background: #fffbf5;">
+        <div class="b2b-info-panel" style="background: #fdf2e9; border-bottom: 1px solid #f5cba7;">
+            <div class="b2b-title-area">
+                <h3 style="color: #e67e22; display: flex; align-items: center; gap: 8px;">
+                    📢 Toptan Alım Yükleme Kampanyaları
+                </h3>
+                <p style="color: #636e72;">Belirli Metraj ve Balya Alımlarına Özel İndirim Avantajları</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box" style="text-align: right;">
+                    <span class="label" style="color: #e67e22; font-weight: 700;">Kampanya</span>
+                    <span class="value" style="color: #2d3436;">Hacimli Siparişe Özel</span>
+                </div>
+                <div class="spec-box" style="text-align: right;">
+                    <span class="label" style="color: #e67e22; font-weight: 700;">Avantaj</span>
+                    <span class="value" style="color: #27ae60;">Ekstra İndirim</span>
+                </div>
+            </div>
+        </div>
+        
+        <div style="padding: 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+            <div style="max-width: 750px;">
+                <p style="font-size: 0.95rem; line-height: 1.6; color: #2d3436; margin-bottom: 10px; font-weight: 500;">
+                    Mağazanızın sezonluk mal yüklemelerinde, proje bazlı siparişlerinizde ya da <strong>tır / palet bazındaki hacimli alımlarınızda</strong> firmamız tarafından ekstra İndirim oranları ve lojistik kolaylıklar sağlanmaktadır.
+                </p>
+                <p style="font-size: 0.9rem; line-height: 1.6; color: #636e72;">
+                    📦 Mevcut sipariş tutarınıza veya balya adedinize göre uygulanacak olan güncel toptan kampanya oranlarını öğrenmek ve firmanıza özel fiyat teklifi almak için bizimle iletişime geçebilirsiniz.
+                </p>
+            </div>
+            <div style="flex-shrink: 0; min-width: 250px;">
+                <a href="https://wa.me/905445452967?text=Merhaba,%20toptan%20toplu%20alım%20kampanyalarınız,%20iskonto%20şartlarınız%20ve%20güncel%20yükleme%20avantajları%20hakkında%20bilgi%20alabilir%20miyim?" 
+                   target="_blank" 
+                   class="social-btn btn-whatsapp" 
+                   style="text-align: center; display: block; padding: 16px; font-size: 0.9rem; border-radius: 4px; background-color: #e67e22; box-shadow: 0 4px 10px rgba(230, 126, 34, 0.2);">
+                    Kampanya Detaylarını Öğren
+                </a>
+            </div>
+        </div>
+    </div>
 
-<h2>
-İletişim
-</h2>
+    <!-- 100 REEDS (Klasör: 100reeds) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>1000 Reeds</h3>
+                <p>Yoğun Dokulu Premium Özel Seri</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">160x230, 200x290</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="100reeds/1000reeds (1).jpeg" alt="1000 Reeds" loading="lazy">
+            <img src="100reeds/1000reeds (2).jpeg" alt="1000 Reeds" loading="lazy">
+            <img src="100reeds/1000reeds (3).jpeg" alt="1000 Reeds" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-<p>
-Sipariş ve fiyat bilgisi için bize ulaşın
-</p>
+    <!-- 1500 REEDS (Klasör: 1500reeds) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>1500 Reeds</h3>
+                <p>Premium Yoğun Dokuma Halı Serisi</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">160x230, 200x290</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="1500reeds/1500reeds.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds1.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds2.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds3.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds4.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds5.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds6.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds7.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds8.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds9.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds10.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds11.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds12.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds13.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds14.jpeg" alt="1500 Reeds" loading="lazy">
+            <img src="1500reeds/1500reeds15.jpeg" alt="1500 Reeds" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-<br>
+    <!-- FLOSH POLYESTER (Klasör: floshpolyester) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Flosh Polyester Modern</h3>
+                <p>Yumuşak Tuşeli ve Modern Desen Seçenekleri</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">Standart</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="floshpolyester/floshpolyestermodern (1).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (2).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (3).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (4).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (5).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (6).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (7).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (8).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (9).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (10).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (11).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (12).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (13).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (14).jpeg" alt="Flosh Polyester" loading="lazy">
+            <img src="floshpolyester/floshpolyestermodern (15).jpeg" alt="Flosh Polyester" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-<div class="sosyal">
+    <!-- İSKANDİNAV (Klasör: İskandinav) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Bukle İskandinav</h3>
+                <p>Minimalist ve Modern İskandinav Tasarımları</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">120x180 | 160x230 | 200x300</span></div>
+                <div class="spec-box"><span class="label">Üretim</span><span class="value">Seri Standart</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="İskandinav/bukleiskandinav (1).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (2).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (3).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (4).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (5).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (6).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (7).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (8).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (9).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (10).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (11).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (12).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (13).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (14).jpeg" alt="Bukle İskandinav" loading="lazy">
+            <img src="İskandinav/bukleiskandinav (15).jpeg" alt="Bukle İskandinav" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-<a href="https://wa.me/905445452967"
-class="btn">
-WhatsApp
-</a>
+    <!-- KAYMAZ TABAN (Klasör: kaymaztaban) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Kaymaz Taban</h3>
+                <p>Kaymaz Tabanlı Pratik ve Günlük Kullanım Halıları</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">Yolluk & Standart Odalar</span></div>
+                <div class="spec-box"><span class="label">Paket</span><span class="value">Toptan Rulo</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="kaymaztaban/kaymaztaban (1).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (2).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (3).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (4).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (5).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (6).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (7).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (8).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (9).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (10).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (11).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (12).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (13).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (14).jpeg" alt="Kaymaz Taban" loading="lazy">
+            <img src="kaymaztaban/kaymaztaban (15).jpeg" alt="Kaymaz Taban" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-<a href="https://instagram.com/yusufsecilmiscarpet"
-target="_blank"
-class="btn">
-Instagram
-</a>
+    <!-- POLYESTER KLASİK (Klasör: polyesterklasik) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Polyester Klasik</h3>
+                <p>Klasik Desenli Premium Koleksiyon</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">Standart</span></div>
+                <div class="spec-box"><span class="label">Üretim</span><span class="value">Seri Üretim</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="polyesterklasik/polysterklasik (1).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (2).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (3).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (4).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (5).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (6).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (7).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (8).jpeg" alt="Polyster Klasik" loading="lazy">
+            <img src="polyesterklasik/polysterklasik (9).jpeg" alt="Polyster Klasik" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-</div>
+    <!-- SİSAL JÜT (Klasör: sisal) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Sisal Jüt</h3>
+                <p>Doğal Görünümlü, Dayanıklı ve Yoğun Dokuma Sisal Serisi</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Gramaj</span><span class="value">1.500 gr / m²</span></div>
+                <div class="spec-box"><span class="label">Standart Ebatlar</span><span class="value">160x230, 200x290</span></div>
+                <div class="spec-box"><span class="label">Toptan Rulo (30m)</span><span class="value">En: 100'lük Rulo, 160'lık Rulo, 200'lük Rulo (Sipariş Üzerine)</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="sisal/sisal (1).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (2).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (3).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (4).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (5).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (6).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (7).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (8).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (9).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (10).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (11).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (12).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (13).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (14).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (15).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (16).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (17).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (18).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (19).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (20).jpeg" alt="Sisal Jüt" loading="lazy">
+            <img src="sisal/sisal (21).jpeg" alt="Sisal Jüt" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-</div>
+    <!-- TAFTİNG (Klasör: Tafting) -->
+    <div class="urun-blok">
+        <div class="b2b-info-panel">
+            <div class="b2b-title-area">
+                <h3>Tafting</h3>
+                <p>Özel Modern Tafting Koleksiyonu</p>
+            </div>
+            <div class="b2b-specs-strip">
+                <div class="spec-box"><span class="label">Ebatlar</span><span class="value">İstenilen Ebat Ölçüleri</span></div>
+                <div class="spec-box"><span class="label">Paket</span><span class="value">Proje Bazlı / Özel</span></div>
+            </div>
+        </div>
+        <div class="galeri">
+            <img src="Tafting/tafting (1).jpeg" alt="Tafting" loading="lazy">
+            <img src="Tafting/tafting (2).jpeg" alt="Tafting" loading="lazy">
+            <img src="Tafting/tafting (3).jpeg" alt="Tafting" loading="lazy">
+            <img src="Tafting/tafting (4).jpeg" alt="Tafting" loading="lazy">
+            <img src="Tafting/tafting (5).jpeg" alt="Tafting" loading="lazy">
+            <img src="Tafting/tafting (6).jpeg" alt="Tafting" loading="lazy">
+        </div>
+        <div class="galeri-ipucu">👈 Modelleri görmek için yana doğru kaydırabilirsiniz 👉</div>
+    </div>
 
-</section>
+</main>
 
 <!-- FOOTER -->
+<footer class="footer-b2b">
+    <div class="footer-content">
+        
+        <div class="footer-column">
+            <h3>Yusuf Seçilmiş Carpet</h3>
+            <p>Halı üretiminde yüksek kalite ve güvenilir tedarik ağımızla, yurt içi mağazalarımıza ve ihracat pazarlarına toptan hizmet vermekteyiz.</p>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Merkez İletişim</h3>
+            <p><strong>Telefon & WP:</strong> +90 544 545 29 67</p>
+            <p><strong>E-Posta:</strong> yusufsecilmiscarpet@gmail.com</p>
+            <p><strong>Çalışma Saatleri:</strong> 7/24 iletişime geçebilirsiniz.</p>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Sosyal Medya & İletişim Kanalları</h3>
+            <p>Güncel fabrika sevkiyatları ve yeni desenler için kanallarımız üzerinden bizimle doğrudan irtibat kurabilirsiniz.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/yusufsecilmiscarpet" target="_blank" rel="noopener" class="social-btn btn-instagram">Instagram</a>
+                <a href="https://facebook.com/yusufsecilmiscarpet" target="_blank" rel="noopener" class="social-btn btn-facebook">Facebook</a>
+                <a href="https://wa.me/905445452967" target="_blank" class="social-btn btn-whatsapp">WhatsApp</a>
+            </div>
+        </div>
 
-<footer>
-
-<p>
-© 2026 Yusuf Seçilmiş Carpet
-</p>
-
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© 2026 Yusuf Seçilmiş Carpet | Toptan Sipariş Portalı. Tüm Hakları Saklıdır.</p>
+    </div>
 </footer>
 
-<!-- SABİT WP -->
-
-<a class="wp-sabit"
-href="https://wa.me/905445452967">
-
-WhatsApp Destek
-
-</a>
+<a class="wp-sabit" href="https://wa.me/905445452967">Toptan WhatsApp Hattı</a>
 
 </body>
 </html>
