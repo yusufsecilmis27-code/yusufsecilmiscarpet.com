@@ -1,0 +1,1 @@
+<?php require 'includes/header.php';?><section class="section"><div class="gold">YSC CARPET</div><h2>Hakkımızda</h2><p style="max-width:850px;line-height:1.9;color:#bbb"><?=nl2br(e(setting('about')))?></p></section><?php require 'includes/footer.php';?>
