@@ -65,3 +65,4 @@ img.missing{visibility:hidden}
 .fab svg{width:30px;height:30px;fill:#fff}
 .err{text-align:center;padding:120px 20px}.err h1{font-size:5rem}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.card .im{position:relative;display:block}.card .im:before{content:attr(data-name);position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:12px;color:#8a8478;font:600 1.05rem var(--serif)}.card .im img{position:relative;background:var(--gray)}

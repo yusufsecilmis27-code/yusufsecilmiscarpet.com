@@ -17,12 +17,20 @@ PR=[
  ["WhatsApp Image 2026-08-06 at 23.01.23.jpeg"]+["WhatsApp Image 2026-08-06 at 23.01.23 (%d).jpeg"%i for i in range(1,6)]+["WhatsApp Image 2026-08-06 at 23.01.24.jpeg","WhatsApp Image 2026-08-06 at 23.01.24 (1).jpeg"],[],"kilim"),
 ]
 VIDEO=("sonilkilim","WhatsApp Video 2026-08-06 at 23.01.23.mp4","son-il-kilim","sonilkilim.mp4")
+# Bilinen 3 ürünün açıklaması (tr/en/ar). Diğer ürünler için boş bırakılır;
+# boş olan bir açıklama js/products.js içinde "desc" alanına yazılarak eklenir.
+KDESC={
+"sisal-jut":{"tr":"Doğal Görünümlü, Dayanıklı ve Yoğun Dokuma Sisal Serisi","en":"Natural-look, durable, densely woven sisal series","ar":"سلسلة سيزال بمظهر طبيعي ومتينة ونسيج كثيف"},
+"tafting":{"tr":"Özel Modern Tafting Koleksiyonu","en":"Special modern tufted collection","ar":"مجموعة تافتينغ عصرية خاصة"},
+"bukle-iskandinav":{"tr":"Minimalist ve Modern İskandinav Tasarımları","en":"Minimalist and modern Scandinavian designs","ar":"تصاميم سكندنافية عصرية وبسيطة"},
+}
 prods=[];rows=[];jp=0
 for id,name,sf,pre,files,f,cat in PR:
     imgs=[]
     for i,s in enumerate(files,1):
         n="images/products/%s/%s-%d.jpeg"%(id,pre,i);imgs.append(n);rows.append((sf+"/"+s,n));jp+=1
-    p=dict(id=id,name=name,cat=cat,f=f,images=imgs,specifications={})
+    d=KDESC.get(id,{"tr":"","en":"","ar":""})
+    p=dict(id=id,name=name,cat=cat,f=f,images=imgs,desc=d,specifications={})
     if id==VIDEO[2]:
         p["video"]="images/products/%s/%s"%(id,VIDEO[3]);rows.append((VIDEO[0]+"/"+VIDEO[1],p["video"]))
     prods.append(p)

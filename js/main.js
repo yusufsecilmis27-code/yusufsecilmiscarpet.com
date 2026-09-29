@@ -10,10 +10,11 @@ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;
 // WhatsApp numarası ve tüm iletişim bilgileri js/products.js içindeki YSC.config'ten yönetilir.
 function wa(name){var m=name?t("wa_msg").replace("{p}",name):t("wa_gen");return"https://wa.me/"+C.whatsapp+"?text="+encodeURIComponent(m)}
 function catLabel(p){return p.cat==="kilim"?t("kilim"):t("fl")[FK.indexOf(p.cat)]}
-function desc(p){return t("d_"+p.id)||t("gen_desc")}
+// Ürün açıklaması: önce ürünün kendi desc alanı (seçili dil), yoksa Türkçesi, o da yoksa genel metin.
+function desc(p){var d=p.desc||{};return(d[lang]&&d[lang].trim())||(d.tr&&d.tr.trim())||t("gen_desc")}
 function img(p,i,extra){return'<img src="'+ROOT+p.images[i]+'" alt="'+esc(p.name+" - "+t("gen_desc").replace(/\.$/,""))+'" width="800" height="600" loading="lazy" decoding="async" '+(extra||"")+'>'}
-function card(p){var u=ROOT+"products/"+p.id+"/";
-return'<article class="card"><a class="im" href="'+u+'" tabindex="-1" aria-hidden="true">'+img(p,0)+'</a><div class="bd"><span class="cat">'+esc(catLabel(p))+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(desc(p))+'</p><div class="row"><a class="btn sm" href="'+u+'">'+t("view")+'</a><a class="btn sm wa" href="'+wa(p.name)+'" target="_blank" rel="noopener">'+t("info")+'</a></div></div></article>'}
+function card(p){var u=ROOT+"products/"+p.id+"/index.html";
+return'<article class="card"><a class="im" data-name="'+esc(p.name)+'" href="'+u+'" tabindex="-1" aria-hidden="true">'+img(p,0)+'</a><div class="bd"><span class="cat">'+esc(catLabel(p))+'</span><h3>'+esc(p.name)+'</h3><p>'+esc(desc(p))+'</p><div class="row"><a class="btn sm" href="'+u+'">'+t("view")+'</a><a class="btn sm wa" href="'+wa(p.name)+'" target="_blank" rel="noopener">'+t("info")+'</a></div></div></article>'}
 var pages=["index.html","products.html","spot.html","wholesale.html","export.html","about.html","contact.html"];
 function cur(){var f=location.pathname.split("/").filter(Boolean).pop()||"index.html";if(/\/products\/[^/]+\/?$/.test(location.pathname))f="products.html";return f}
 var WAI='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.900L3 29l6.300-2A13 13 0 1 0 16 3zm7.500 18.200c-.3.900-1.800 1.700-2.500 1.800-.6.100-1.500.100-2.400-.2-.6-.2-1.300-.4-2.200-.8-3.900-1.700-6.400-5.600-6.600-5.800-.2-.3-1.600-2.100-1.600-4s1-2.800 1.300-3.200c.3-.4.700-.5.900-.5h.7c.2 0 .5-.1.800.6l1 2.400c.1.200.1.400 0 .6l-.4.700-.5.600c-.2.200-.4.400-.2.800.2.400 1 1.600 2.100 2.600 1.400 1.200 2.600 1.600 3 1.800.4.200.6.100.8-.1l1.100-1.300c.3-.4.500-.3.900-.2l2.300 1.100c.4.200.6.300.7.500.1.200.1.900-.2 1.800z"/></svg>';
