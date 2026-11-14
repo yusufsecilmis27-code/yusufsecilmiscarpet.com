@@ -1,0 +1,99 @@
+{
+  "name": "Yusuf Seçilmiş Carpet",
+  "baseUrl": "https://yusufsecilmiscarpet.com",
+  "languages": [
+    "tr",
+    "en",
+    "ar",
+    "ru",
+    "fr",
+    "ka"
+  ],
+  "defaultLang": "en",
+  "phone": "+905445452967",
+  "phoneDisplay": "+90 544 545 29 67",
+  "whatsapp": "905445452967",
+  "email": "yusufsecilmiscarpet@gmail.com",
+  "address": {
+    "street": "Başpınar OSB, Vali Muammer Güler Blv. OSB 2. Bölge No:28/A",
+    "postalCode": "27600",
+    "district": "Şehitkamil",
+    "city": "Gaziantep",
+    "country": "TR"
+  },
+  "instagram": "https://www.instagram.com/yusufsecilmiscarpet",
+  "instagramHandle": "@yusufsecilmiscarpet",
+  "facebookName": "Yusuf Seçilmiş Carpet",
+  "heroImage": "",
+  "routes": {
+    "products": {
+      "tr": "urunler",
+      "en": "products",
+      "fr": "produits"
+    },
+    "wholesale": {
+      "tr": "toptan-ihracat",
+      "en": "wholesale-export",
+      "fr": "gros-export"
+    },
+    "sourcing": {
+      "tr": "tedarik-kalite",
+      "en": "sourcing-quality",
+      "fr": "approvisionnement-qualite"
+    },
+    "contact": {
+      "tr": "iletisim",
+      "en": "contact",
+      "fr": "contact"
+    }
+  },
+  "featured": [
+    "mosque",
+    "pp",
+    "polyester",
+    "shaggy",
+    "prayer",
+    "kids"
+  ],
+  "colors": {
+    "red": "#7A1F23",
+    "green": "#1F4D3A",
+    "blue": "#1E3A5F",
+    "beige": "#C9B38C",
+    "brown": "#6B4A2B",
+    "grey": "#7A7F84",
+    "cream": "#EFE7D6",
+    "black": "#1A1917",
+    "multi": "linear-gradient(135deg,#7A1F23,#D8B865,#1E3A5F)",
+    "white": "#FFFFFF",
+    "pink": "#F4C6D3",
+    "yellow": "#F3DD7A",
+    "orange": "#F08A3C",
+    "purple": "#C9B6EE",
+    "turquoise": "#12A9A6",
+    "gold": "#C49A55"
+  },
+  "fonts": {
+    "default": {
+      "href": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap",
+      "head": "'Cormorant Garamond', Georgia, serif",
+      "body": "Manrope, 'Segoe UI', Arial, sans-serif"
+    },
+    "ar": {
+      "href": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap",
+      "head": "'Noto Naskh Arabic', 'Times New Roman', serif",
+      "body": "'Noto Sans Arabic', Tahoma, Arial, sans-serif"
+    },
+    "ka": {
+      "href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500;600&family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap",
+      "head": "'Noto Serif Georgian', Georgia, serif",
+      "body": "'Noto Sans Georgian', 'Segoe UI', Arial, sans-serif"
+    }
+  },
+  "redirects": {
+    "products.html": "/tr/urunler/",
+    "wholesale.html": "/tr/toptan-ihracat/",
+    "export.html": "/tr/toptan-ihracat/",
+    "spot.html": "/tr/urunler/"
+  }
+}

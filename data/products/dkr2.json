@@ -1,0 +1,83 @@
+{
+  "code": "DKR2",
+  "category": "puzzle",
+  "colors": [
+    "white",
+    "red",
+    "black",
+    "grey",
+    "pink",
+    "brown",
+    "beige",
+    "blue",
+    "yellow",
+    "green",
+    "orange",
+    "purple"
+  ],
+  "sizes": [
+    {
+      "tr": "Parçalar birleştirilerek istenen ölçü oluşturulur",
+      "en": "Tiles join to make any size",
+      "ar": "تُركَّب القطع للحصول على المقاس المطلوب",
+      "ru": "Нужный размер собирается из плиток",
+      "fr": "Les dalles s'assemblent à la dimension voulue",
+      "ka": "სასურველი ზომა ნაწილების შეერთებით იწყობა"
+    }
+  ],
+  "name": {
+    "tr": "Yapboz Peluş Halı",
+    "en": "Plush Puzzle Rug",
+    "ar": "سجاد بازل مخملي",
+    "ru": "Плюшевый ковёр-пазл",
+    "fr": "Tapis puzzle en peluche",
+    "ka": "პლუშის ფაზლის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Birbirine geçmeli peluş karolardan oluşan yapboz halı. Renkleri karıştırarak damalı, çizgili veya tek renk düzenler kurabilir, parça ekleyerek halıyı istediğiniz ölçüye getirebilirsiniz. İstediğiniz renkleri WhatsApp'tan belirtin.",
+    "en": "A puzzle rug made of interlocking plush tiles. Mix colours to build checkered, striped or single-colour layouts, and add tiles to reach the size you need. Tell us the colours you want on WhatsApp.",
+    "ar": "سجاد بازل مكوّن من قطع مخملية متداخلة. امزج الألوان لتكوين تصاميم مربعات أو خطوط أو لون واحد، وأضف قطعاً للوصول إلى المقاس الذي تريده. حدّد الألوان المطلوبة عبر واتساب.",
+    "ru": "Ковёр-пазл из плюшевых плиток с замковым соединением. Комбинируйте цвета, собирая шахматный, полосатый или однотонный рисунок, и добавляйте плитки до нужного размера. Нужные цвета укажите в WhatsApp.",
+    "fr": "Tapis puzzle composé de dalles en peluche emboîtables. Mélangez les couleurs pour créer un damier, des rayures ou un tapis uni, et ajoutez des dalles pour atteindre la dimension voulue. Indiquez les couleurs souhaitées sur WhatsApp.",
+    "ka": "ფაზლის ხალიჩა ერთმანეთში ჩასმადი პლუშის ნაწილებისგან. შეურიეთ ფერები და ააწყვეთ ჭადრაკული, ზოლიანი ან ერთფეროვანი ნახატი, ხოლო ნაწილების დამატებით მიიღეთ სასურველი ზომა. სასურველი ფერები მიუთითეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+    "18.jpg",
+    "19.jpg",
+    "20.jpg",
+    "21.jpg",
+    "22.jpg",
+    "23.jpg",
+    "24.jpg",
+    "25.jpg",
+    "26.jpg",
+    "27.jpg",
+    "28.jpg",
+    "29.jpg",
+    "30.jpg",
+    "31.jpg",
+    "32.jpg",
+    "33.jpg",
+    "34.jpg",
+    "35.jpg",
+    "36.jpg",
+    "37.jpg"
+  ]
+}

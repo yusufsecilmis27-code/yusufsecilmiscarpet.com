@@ -1,0 +1,53 @@
+{
+  "code": "DKR1",
+  "category": "sisal",
+  "material": "polyester",
+  "colors": [
+    "brown",
+    "beige",
+    "blue",
+    "cream",
+    "grey",
+    "black"
+  ],
+  "sizes": [
+    "160x210 cm"
+  ],
+  "pile_mm": null,
+  "weight_gsm": 1300,
+  "packing": {
+    "tr": "Rulo, naylon ambalajlı",
+    "en": "Rolled, in polybag",
+    "ar": "رول في كيس نايلون",
+    "ru": "Рулон в полиэтиленовой упаковке",
+    "fr": "En rouleau, sous film plastique",
+    "ka": "რულონი, პოლიეთილენის შეფუთვით"
+  },
+  "name": {
+    "tr": "Sisal Halı",
+    "en": "Sisal Rug",
+    "ar": "سجاد سيزال",
+    "ru": "Ковёр сизаль",
+    "fr": "Tapis sisal",
+    "ka": "სიზალის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Düz dokuma, sisal görünümlü halı serisi. Geometrik, çizgili, bordürlü ve çiçekli desenlerde; kahve, bej, mavi, krem ve gri tonlarında. İstediğiniz deseni WhatsApp'tan fotoğrafıyla belirtin.",
+    "en": "A flat-woven, sisal-look rug series. Available in geometric, striped, bordered and floral designs, in brown, beige, blue, cream and grey tones. Tell us the design you want by sending its photo on WhatsApp.",
+    "ar": "سلسلة سجاد منسوج مسطح بمظهر السيزال. متوفرة بنقوش هندسية ومخططة وبإطار وزهرية، بدرجات البني والبيج والأزرق والكريمي والرمادي. حدّد النقشة التي تريدها بإرسال صورتها عبر واتساب.",
+    "ru": "Серия безворсовых ковров с фактурой сизаля. Рисунки: геометрические, в полоску, с каймой и цветочные; оттенки коричневого, бежевого, синего, кремового и серого. Нужный рисунок укажите, отправив его фото в WhatsApp.",
+    "fr": "Série de tapis tissés à plat, aspect sisal. Motifs géométriques, rayés, à bordure et floraux, dans des tons marron, beige, bleu, crème et gris. Indiquez le motif souhaité en envoyant sa photo sur WhatsApp.",
+    "ka": "ბრტყელი ქსოვის, სიზალის იერის ხალიჩების სერია. გეომეტრიული, ზოლიანი, ჩარჩოიანი და ყვავილოვანი ნახატებით; ყავისფერ, ბეჟ, ლურჯ, კრემისფერ და ნაცრისფერ ტონებში. სასურველი ნახატი მიუთითეთ მისი ფოტოს გაგზავნით WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg"
+  ]
+}

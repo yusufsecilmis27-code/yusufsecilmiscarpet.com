@@ -1,0 +1,47 @@
+{
+  "code": "PES3",
+  "category": "cross",
+  "material": "polyester",
+  "colors": [
+    "red",
+    "blue",
+    "cream",
+    "beige",
+    "grey"
+  ],
+  "sizes": [
+    "200x300 cm"
+  ],
+  "weight_gsm": 2000,
+  "name": {
+    "tr": "Cross Dokuma Polyester Halı",
+    "en": "Cross-Woven Polyester Rug",
+    "ar": "سجاد بوليستر منسوج متقاطع",
+    "ru": "Ковёр из полиэстера перекрёстного плетения",
+    "fr": "Tapis polyester tissage croisé",
+    "ka": "პოლიესტერის ჯვარედინი ქსოვის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Cross dokuma polyester halı. Eskitme görünümlü klasik desenler; kırmızı göbekli ve lacivert bahçe (karolu) modelleri, krem ve bej bordürlerle. Metrekare ağırlığı 2 kg. Ürünü videolarda yakından görebilirsiniz; fiyat için WhatsApp'tan yazın.",
+    "en": "Cross-woven polyester rug. Classic designs with a distressed look: a red medallion model and a navy garden (panel) model, with cream and beige borders. Weight 2 kg per m². See the rug up close in the videos, and message us on WhatsApp for the price.",
+    "ar": "سجاد بوليستر منسوج متقاطع. نقوش كلاسيكية بمظهر معتّق: موديل بميدالية حمراء وموديل حديقة (مربعات) كحلي، بإطارات كريمية وبيج. الوزن 2 كغ للمتر المربع. شاهد السجادة عن قرب في الفيديوهات، وراسلنا عبر واتساب لمعرفة السعر.",
+    "ru": "Ковёр из полиэстера перекрёстного плетения. Классические рисунки с эффектом старения: модель с красным медальоном и тёмно-синяя модель «сад» (с панелями), с кремовой и бежевой каймой. Вес 2 кг/м². Посмотрите ковёр вблизи на видео и узнайте цену в WhatsApp.",
+    "fr": "Tapis polyester tissage croisé. Motifs classiques à l'aspect vieilli : un modèle à médaillon rouge et un modèle jardin (à caissons) bleu marine, avec bordures crème et beige. Poids 2 kg/m². Découvrez le tapis de près dans les vidéos et demandez le prix sur WhatsApp.",
+    "ka": "პოლიესტერის ჯვარედინი ქსოვის ხალიჩა. კლასიკური ნახატები დაძველებული იერით: წითელი მედალიონიანი და მუქი ლურჯი „ბაღის“ (უჯრედებიანი) მოდელები, კრემისფერი და ბეჟი ჩარჩოებით. წონა 2 კგ/მ². ნახეთ ხალიჩა ახლოდან ვიდეოებში, ფასისთვის კი მოგვწერეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+  ],
+  "videos": [
+    {
+      "file": "video1.mp4",
+      "poster": "video1.jpg"
+    },
+    {
+      "file": "video2.mp4",
+      "poster": "video2.jpg"
+    }
+  ]
+}

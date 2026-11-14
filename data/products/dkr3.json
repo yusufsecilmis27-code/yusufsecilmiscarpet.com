@@ -1,0 +1,90 @@
+{
+  "code": "DKR3",
+  "category": "nonslip",
+  "contain": true,
+  "colors": [
+    "grey",
+    "beige",
+    "brown",
+    "cream"
+  ],
+  "sizes": [
+    {
+      "tr": "İstenilen her ebatta üretim",
+      "en": "Produced in any size on request",
+      "ar": "إنتاج بأي مقاس مطلوب",
+      "ru": "Производство любого размера под заказ",
+      "fr": "Fabrication dans toutes les dimensions sur demande",
+      "ka": "წარმოება ნებისმიერი ზომით შეკვეთით"
+    }
+  ],
+  "weight_gsm": 1200,
+  "backing": {
+    "tr": "Kaymaz taban",
+    "en": "Non-slip backing",
+    "ar": "قاعدة مانعة للانزلاق",
+    "ru": "Нескользящая основа",
+    "fr": "Dossier antidérapant",
+    "ka": "არასრიალა ძირი"
+  },
+  "name": {
+    "tr": "Dijital Baskı Kaymaz Taban Halı",
+    "en": "Digital Print Non-Slip Rug",
+    "ar": "سجاد مطبوع رقمياً بقاعدة مانعة للانزلاق",
+    "ru": "Ковёр с цифровой печатью на нескользящей основе",
+    "fr": "Tapis imprimé antidérapant",
+    "ka": "ციფრული ბეჭდვის არასრიალა ხალიჩა"
+  },
+  "desc": {
+    "tr": "Kaymaz tabanlı dijital baskı halı. Sipariş üzerine üretim yaptırılır ve istenilen her ebatta üretim sağlanır. İhracata özel kampanyalı fiyat için WhatsApp'tan yazın; istediğiniz deseni fotoğrafın altındaki desen koduyla belirtin.",
+    "en": "Digital print rug with non-slip backing. Made to order and produced in any size you need. Message us on WhatsApp for our special export campaign price, and tell us the design by the design code under its photo.",
+    "ar": "سجاد مطبوع رقمياً بقاعدة مانعة للانزلاق. يُنتَج حسب الطلب وبأي مقاس تريده. راسلنا عبر واتساب للحصول على سعر العرض الخاص بالتصدير، وحدّد النقشة برمز التصميم المكتوب أسفل الصورة.",
+    "ru": "Ковёр с цифровой печатью на нескользящей основе. Изготавливается под заказ в любом нужном размере. Напишите нам в WhatsApp, чтобы узнать специальную акционную цену для экспорта, и укажите рисунок по коду дизайна под фото.",
+    "fr": "Tapis imprimé numériquement, à dossier antidérapant. Fabriqué sur commande, dans toutes les dimensions souhaitées. Écrivez-nous sur WhatsApp pour notre prix promotionnel spécial export, et indiquez le motif par le code inscrit sous la photo.",
+    "ka": "ციფრული ბეჭდვის ხალიჩა არასრიალა ძირით. მზადდება შეკვეთით, ნებისმიერი სასურველი ზომით. საექსპორტო სპეციალური აქციის ფასისთვის მოგვწერეთ WhatsApp-ზე და ნახატი მიუთითეთ ფოტოს ქვეშ მოცემული დიზაინის კოდით."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+    "18.jpg",
+    "19.jpg",
+    "20.jpg",
+    "21.jpg",
+    "22.jpg",
+    "23.jpg",
+    "24.jpg",
+    "25.jpg",
+    "26.jpg",
+    "27.jpg",
+    "28.jpg",
+    "29.jpg",
+    "30.jpg",
+    "31.jpg",
+    "32.jpg"
+  ],
+  "badge": {
+    "tr": "İhracata Özel Kampanyalı Fiyat",
+    "en": "Special Export Campaign Price",
+    "ar": "سعر خاص للتصدير",
+    "ru": "Специальная экспортная цена",
+    "fr": "Prix spécial export",
+    "ka": "სპეციალური საექსპორტო ფასი"
+  },
+  "home": true,
+  "priority": 9
+}

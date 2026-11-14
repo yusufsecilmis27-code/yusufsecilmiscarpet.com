@@ -1,0 +1,62 @@
+{
+  "code": "PP1",
+  "category": "pp",
+  "material": "ppflosh",
+  "home": true,
+  "priority": 11,
+  "contain": true,
+  "colors": [
+    "blue",
+    "beige",
+    "cream",
+    "grey",
+    "brown"
+  ],
+  "sizes": [
+    "100x200 cm",
+    "100x300 cm",
+    "160x230 cm",
+    "200x290 cm",
+    "240x340 cm",
+    "300x400 cm"
+  ],
+  "weight_gsm": 2300,
+  "badge": {
+    "tr": "Yeni Ürün · Seri Üretim · İhracata Özel Fiyat",
+    "en": "New · Special Export Price",
+    "ar": "جديد · سعر خاص للتصدير",
+    "ru": "Новинка · Специальная экспортная цена",
+    "fr": "Nouveau · Prix spécial export",
+    "ka": "ახალი · სპეციალური საექსპორტო ფასი"
+  },
+  "name": {
+    "tr": "Akik Saraylı Halı",
+    "en": "Akik Saraylı Rug",
+    "ar": "سجاد Akik Saraylı",
+    "ru": "Ковёр Akik Saraylı",
+    "fr": "Tapis Akik Saraylı",
+    "ka": "ხალიჩა Akik Saraylı"
+  },
+  "desc": {
+    "tr": "Akik Saraylı serisi; polip ve floş polyester ipliklerle dokunur, seri üretimle hazırlanır. Saray esintili göbekli klasik desenler ile modern geometrik ve soyut desenler; lacivert, bej, krem, gri ve vizon tonlarında. Metrekare ağırlığı 2,3 kg. İhracata özel kampanyalı fiyat için WhatsApp'tan yazın.",
+    "en": "The Akik Saraylı series, woven with polypropylene and flosh polyester yarns in bulk production. Palace-inspired classic medallion designs alongside modern geometric and abstract designs, in navy, beige, cream, grey and taupe tones. Weight 2.3 kg per m². Message us on WhatsApp for our special export price.",
+    "ar": "سلسلة Akik Saraylı، منسوجة بخيوط البولي بروبلين والبوليستر الفلوش بإنتاج متسلسل. نقوش كلاسيكية بميدالية مستوحاة من القصور إلى جانب نقوش هندسية وتجريدية حديثة، بدرجات الكحلي والبيج والكريمي والرمادي والتوب. الوزن 2.3 كغ للمتر المربع. راسلنا عبر واتساب للحصول على سعر التصدير الخاص.",
+    "ru": "Серия Akik Saraylı из полипропиленовой нити и полиэстера флош, серийное производство. Классические рисунки с медальоном в дворцовом стиле, а также современные геометрические и абстрактные, в тёмно-синих, бежевых, кремовых, серых и тауповых тонах. Вес 2,3 кг/м². Узнайте специальную экспортную цену в WhatsApp.",
+    "fr": "La série Akik Saraylı, tissée en fils de polypropylène et de polyester flosh, en production en série. Motifs classiques à médaillon d'inspiration palatiale, ainsi que motifs géométriques et abstraits modernes, dans des tons bleu marine, beige, crème, gris et taupe. Poids 2,3 kg/m². Demandez notre prix spécial export sur WhatsApp.",
+    "ka": "Akik Saraylı სერია, ნაქსოვი პოლიპროპილენისა და ფლოში პოლიესტერის ძაფებით, სერიული წარმოებით. სასახლის სტილის კლასიკური მედალიონიანი და თანამედროვე გეომეტრიული და აბსტრაქტული ნახატები მუქ ლურჯ, ბეჟ, კრემისფერ, ნაცრისფერ და ტაუპ ტონებში. წონა 2,3 კგ/მ². სპეციალური საექსპორტო ფასისთვის მოგვწერეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg"
+  ]
+}

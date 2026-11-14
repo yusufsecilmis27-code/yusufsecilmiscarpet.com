@@ -1,0 +1,67 @@
+{
+  "code": "AKR2",
+  "category": "acrylic",
+  "material": "acrylic",
+  "home": true,
+  "priority": 10,
+  "contain": true,
+  "colors": [
+    "grey",
+    "white",
+    "beige",
+    "cream"
+  ],
+  "sizes": [
+    {
+      "tr": "İstenilen ebatta kesim yapılır",
+      "en": "Cut to any size you need",
+      "ar": "قص بأي مقاس تريده",
+      "ru": "Нарезка в любой нужный размер",
+      "fr": "Découpe à la dimension souhaitée",
+      "ka": "იჭრება ნებისმიერი სასურველი ზომით"
+    }
+  ],
+  "weight_gsm": 2200,
+  "badge": {
+    "tr": "Yeni Ürün · Yurt İçine Özel Kampanya",
+    "en": "New Product",
+    "ar": "منتج جديد",
+    "ru": "Новинка",
+    "fr": "Nouveau produit",
+    "ka": "ახალი პროდუქტი"
+  },
+  "name": {
+    "tr": "Kesim Hizmetli Akrilik Halı",
+    "en": "Cut-to-Size Acrylic Rug",
+    "ar": "سجاد أكريليك مع خدمة القص حسب المقاس",
+    "ru": "Акриловый ковёр с нарезкой по размеру",
+    "fr": "Tapis acrylique découpé sur mesure",
+    "ka": "აკრილის ხალიჩა ზომაზე ჭრით"
+  },
+  "desc": {
+    "tr": "Akrilik halı, kesim hizmetiyle istediğiniz ebatta kesilerek hazırlanır. Kabartmalı, modern geometrik desenler; gri, beyaz, bej ve krem tonlarında. Metrekare ağırlığı 2,2 kg. Yurt içi siparişlere özel kampanyalı fiyat için WhatsApp'tan yazın; istediğiniz deseni fotoğraftaki desen koduyla belirtin.",
+    "en": "Acrylic rug, cut to the exact size you need with our cutting service. Embossed, modern geometric designs in grey, white, beige and cream tones. Weight 2.2 kg per m². Tell us the design you want on WhatsApp by the design code shown on its photo.",
+    "ar": "سجاد أكريليك يُقص بالمقاس الذي تحتاجه عبر خدمة القص لدينا. نقوش هندسية حديثة بارزة، بدرجات الرمادي والأبيض والبيج والكريمي. الوزن 2.2 كغ للمتر المربع. حدّد النقشة التي تريدها عبر واتساب برمز التصميم المكتوب على صورتها.",
+    "ru": "Акриловый ковёр, который мы нарезаем точно в нужный вам размер. Рельефные современные геометрические рисунки в серых, белых, бежевых и кремовых тонах. Вес 2,2 кг/м². Нужный рисунок укажите в WhatsApp по коду дизайна на фото.",
+    "fr": "Tapis acrylique découpé à la dimension exacte dont vous avez besoin grâce à notre service de découpe. Motifs géométriques modernes en relief, dans des tons gris, blanc, beige et crème. Poids 2,2 kg/m². Indiquez le motif souhaité sur WhatsApp grâce au code inscrit sur sa photo.",
+    "ka": "აკრილის ხალიჩა, რომელსაც ჩვენი ჭრის სერვისით ზუსტად თქვენთვის საჭირო ზომაზე ვჭრით. რელიეფური, თანამედროვე გეომეტრიული ნახატები ნაცრისფერ, თეთრ, ბეჟ და კრემისფერ ტონებში. წონა 2,2 კგ/მ². სასურველი ნახატი მიუთითეთ WhatsApp-ზე ფოტოზე მოცემული დიზაინის კოდით."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg"
+  ]
+}

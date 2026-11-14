@@ -1,0 +1,310 @@
+{
+  "langName": "Türkçe",
+  "dir": "ltr",
+  "ogLocale": "tr_TR",
+  "topbar": "Toptan ve ihracat · Minimum sipariş yok · Gaziantep, Türkiye",
+  "nav": {
+    "home": "Ana sayfa",
+    "products": "Ürünler",
+    "wholesale": "Toptan ve İhracat",
+    "sourcing": "Tedarik ve Kalite",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "lang": "Dil seçimi"
+  },
+  "cta": {
+    "wa": "WhatsApp'tan Fiyat Al",
+    "browse": "Ürünleri İncele",
+    "details": "Detaylar",
+    "quote": "Teklif İste",
+    "call": "Ara",
+    "allCats": "Tüm kategorileri gör",
+    "directions": "Yol tarifi al",
+    "send": "WhatsApp ile gönder"
+  },
+  "home": {
+    "metaTitle": "Toptan Halı Tedarikçisi Gaziantep | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Gaziantep'ten toptan halı: cami halısı, polip, polyester, shaggy ve daha fazlası. Minimum sipariş yok, dünyanın her yerine sevkiyat. WhatsApp'tan fiyat alın.",
+    "eyebrow": "GAZİANTEP'TEN DÜNYAYA TOPTAN HALI",
+    "h1": "Birçok üreticinin halısı, tek tedarikçide.",
+    "lead": "Cami halısından polip ve polyester halıya 15 ürün grubunu Gaziantep'ten toptan tedarik ediyor, dünyanın her yerine sevk ediyoruz. Tek balyadan konteynere kadar sipariş verebilirsiniz.",
+    "trust": [
+      "Minimum sipariş yok",
+      "15 ürün grubu",
+      "Depodan, limana veya kapıya teslim"
+    ],
+    "catsEyebrow": "ÜRÜN GRUPLARI",
+    "catsTitle": "En çok talep gören kategoriler",
+    "newTitle": "Yeni ürünler ve kampanyalar",
+    "newEyebrow": "YENİ"
+  },
+  "why": {
+    "title": "Toptan alıcının işini kolaylaştıran dört şey",
+    "items": [
+      [
+        "Tek noktadan çeşitlilik",
+        "Gaziantep'teki birçok üreticinin ürününü tek siparişte, tek muhatapla alırsınız."
+      ],
+      [
+        "Minimum sipariş yok",
+        "Tek balya da, karışık modelli konteyner de sipariş edebilirsiniz."
+      ],
+      [
+        "Esnek sevkiyat",
+        "Depodan teslim, limana teslim veya kapıya teslim. Lojistik ayrıca ücretlendirilir."
+      ],
+      [
+        "Kendi dilinizde iletişim",
+        "Türkçe, İngilizce ve Arapça doğrudan; diğer dillerde çeviri desteğiyle yanıt veriyoruz."
+      ]
+    ]
+  },
+  "who": {
+    "eyebrow": "KİMLERLE ÇALIŞIYORUZ",
+    "title": "Size uygun çözümü seçin",
+    "items": [
+      [
+        "İthalatçı ve toptancılar",
+        "Konteyner ve toplu siparişte 15 ürün grubunu tek yüklemede birleştirin."
+      ],
+      [
+        "Halı mağazaları",
+        "Karışık modelli, küçük miktarlı siparişlerle rafınızı çeşitlendirin."
+      ],
+      [
+        "Cami, dernek ve vakıflar",
+        "Krokiyi gönderin; metrajı hesaplayıp ölçüye göre cami halısı tedarik edelim."
+      ],
+      [
+        "Otel ve proje firmaları",
+        "Büyük metrajlı rulo ve özel ölçü ihtiyaçları için proje bazlı teklif."
+      ]
+    ]
+  },
+  "steps": {
+    "title": "Sipariş dört adımda tamamlanır",
+    "items": [
+      [
+        "Ürünü seçin",
+        "Katalogdan beğendiğiniz modellerin kodlarını not edin."
+      ],
+      [
+        "WhatsApp'tan fiyat alın",
+        "Ürün kodu mesaja otomatik eklenir, güncel fiyatı iletiriz."
+      ],
+      [
+        "Siparişi onaylayın",
+        "Miktar, ebat ve ödeme koşullarını birlikte netleştiririz."
+      ],
+      [
+        "Yükleme ve sevkiyat",
+        "Seçtiğiniz teslim şekline göre yüklemeyi yaparız."
+      ]
+    ]
+  },
+  "band": {
+    "title": "Güncel fiyat listesi için yazın",
+    "text": "İlgilendiğiniz ürün grubunu ve ülkenizi belirtmeniz yeterli."
+  },
+  "products": {
+    "metaTitle": "Toptan Halı Modelleri ve Kategoriler | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Cami halısı, seccade, polip, polyester, shaggy, kilim, çocuk halısı ve daha fazlası: 15 kategoride toptan halı kataloğu.",
+    "h1": "Toptan Halı Kataloğu",
+    "lead": "15 kategorideki ürünleri kategoriye, malzemeye ve renge göre filtreleyin. Fiyat için ürünün WhatsApp butonuna dokunun.",
+    "allProducts": "Tüm ürünler"
+  },
+  "cat": {
+    "metaTitle": "Toptan {name} | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Gaziantep'ten toptan {name}. Minimum sipariş yok, yurt içi ve ihracat sevkiyatı. Güncel fiyat için WhatsApp'tan yazın.",
+    "h1": "Toptan {name}",
+    "lead": "{name} ürünlerini Gaziantep'ten toptan tedarik ediyoruz. Minimum sipariş yok; güncel fiyat için ürünün WhatsApp butonuna dokunun."
+  },
+  "filter": {
+    "title": "Filtreler",
+    "category": "KATEGORİ",
+    "material": "MALZEME",
+    "color": "RENK",
+    "search": "Ürün kodu veya adı",
+    "none": "Bu filtrelere uyan ürün bulunamadı.",
+    "empty": "Bu kategorideki ürünler yakında eklenecek. Güncel modeller için WhatsApp'tan yazın.",
+    "count": "{n} ürün",
+    "reset": "Filtreleri temizle",
+    "helpTitle": "Aradığınız deseni bulamadınız mı?",
+    "helpText": "Fotoğrafını gönderin, benzerini tedarik edelim."
+  },
+  "product": {
+    "metaTitle": "{name} – Toptan {cat} | Yusuf Seçilmiş Carpet",
+    "code": "Kod",
+    "colors": "RENK SEÇENEKLERİ",
+    "sizes": "EBATLAR",
+    "specs": "TEKNİK BİLGİLER",
+    "material": "Malzeme",
+    "pile": "Hav yüksekliği",
+    "weight": "Ağırlık",
+    "backing": "Taban",
+    "packing": "Paketleme",
+    "origin": "Menşe",
+    "originValue": "Türkiye (Gaziantep)",
+    "waTitle": "Toptan fiyat için yazın",
+    "waNote": "Bu mesaj WhatsApp'ta hazır açılır; ürün kodu otomatik eklenir.",
+    "related": "Benzer ürünler",
+    "photo": "Fotoğraf",
+    "perks": [
+      [
+        "Minimum sipariş yok",
+        "Tek balyadan konteynere kadar."
+      ],
+      [
+        "Esnek sevkiyat",
+        "Depodan, limana veya kapıya teslim."
+      ],
+      [
+        "Karışık sipariş",
+        "Farklı ürün gruplarını tek yüklemede birleştirin."
+      ]
+    ],
+    "reeds": "Tarak",
+    "videos": "Videolar"
+  },
+  "wa": {
+    "product": "Merhaba, {code} kodlu {name} için toptan fiyat almak istiyorum.",
+    "general": "Merhaba, toptan halı fiyatları hakkında bilgi almak istiyorum.",
+    "form": "Merhaba, web sitenizden yazıyorum."
+  },
+  "wholesale": {
+    "metaTitle": "Toptan Halı Satışı ve İhracat | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Gaziantep'ten toptan halı satışı ve ihracat. Minimum sipariş yok; depodan, limana veya kapıya teslim. İthalatçı, mağaza, cami ve proje firmaları için.",
+    "eyebrow": "TOPTAN SATIŞ VE İHRACAT",
+    "h1": "Tek balyadan konteynere, Gaziantep'ten kapınıza.",
+    "lead": "Yurt içinde ve ihracatta toptan çalışıyoruz. Miktar sınırı koymuyor, yüklemeyi istediğiniz teslim şekline göre yapıyoruz.",
+    "whoTitle": "Kimler için nasıl çalışıyoruz",
+    "deliveryTitle": "Teslimat seçenekleri",
+    "deliveryNote": "Yüklemeyi her şekilde yapıyoruz. Nakliye ve lojistik, ürün fiyatından ayrı ücretlendirilen bir hizmettir.",
+    "delivery": [
+      [
+        "DEPODAN TESLİM",
+        "Kendi aracınızla alın",
+        "Ürünler Gaziantep'teki depomuzda paketlenmiş olarak aracınıza yüklenir."
+      ],
+      [
+        "LİMANA TESLİM",
+        "Limana veya sınır kapısına",
+        "Yükü anlaştığımız limana ya da gümrük kapısına ulaştırırız."
+      ],
+      [
+        "KAPIYA TESLİM",
+        "Adresinize kadar",
+        "Karayolu veya deniz yoluyla ülkenizdeki adrese kadar sevkiyat."
+      ]
+    ],
+    "regionsTitle": "Sevkiyat yaptığımız bölgeler",
+    "regions": [
+      "Irak, Ürdün, Suriye ve Arap bölgesi",
+      "Tunus ve Afrika",
+      "Türk dünyası ülkeleri",
+      "Rusya, Ukrayna, Belarus",
+      "Gürcistan ve komşu ülkeler",
+      "Avrupa",
+      "Amerika"
+    ],
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      [
+        "Minimum sipariş miktarınız var mı?",
+        "Hayır. Tek balya da, karışık modelli konteyner de sipariş edebilirsiniz."
+      ],
+      [
+        "Fiyatları nasıl öğrenirim?",
+        "Sitede fiyat göstermiyoruz. Ürün sayfasındaki WhatsApp butonuna dokunun; ürün kodu mesaja eklenir ve güncel toptan fiyatı iletiriz."
+      ],
+      [
+        "Farklı ürün gruplarını tek siparişte alabilir miyim?",
+        "Evet. Farklı kategorilerden ürünleri tek siparişte ve tek yüklemede birleştirebilirsiniz."
+      ],
+      [
+        "Hangi dillerde iletişim kurabilirim?",
+        "Türkçe, İngilizce ve Arapça doğrudan yanıt veriyoruz. Diğer dillerde çeviri desteğiyle yardımcı oluyoruz."
+      ]
+    ],
+    "formTitle": "Toptan fiyat teklifi isteyin",
+    "formNote": "Bilgileriniz WhatsApp mesajı olarak hazırlanır; göndermek için WhatsApp açılır."
+  },
+  "sourcing": {
+    "metaTitle": "Tedarik ve Kalite | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Yusuf Seçilmiş Carpet, Gaziantep'teki üreticilerden tedarik ettiği halıları yurt içine ve dünyaya toptan ulaştırır.",
+    "eyebrow": "TEDARİK VE KALİTE",
+    "h1": "Halının başkentinden, tek muhatapla tedarik.",
+    "lead": "Yusuf Seçilmiş Carpet, Gaziantep merkezli bir toptan halı tedarikçisidir. Üreticilerden aldığımız ürünleri yurt içindeki ve yurt dışındaki alıcılara ulaştırıyoruz.",
+    "sections": [
+      [
+        "Tek noktadan tedarik",
+        "Gaziantep'teki birçok üreticinin ürününü tek katalogda topluyoruz. 15 ürün grubunu farklı firmalarla ayrı ayrı görüşmeden, tek siparişte alabilirsiniz."
+      ],
+      [
+        "Yurt içi ve ihracat tecrübesi",
+        "Yıllardır hem Türkiye içinde hem ihracatta toptan çalışıyoruz. Farklı ülkelerdeki alıcıların ürün, paketleme ve sevkiyat beklentilerini biliyoruz."
+      ],
+      [
+        "Paketleme ve yükleme",
+        "Ürünler balya veya rulo olarak paketlenir. Yüklemeyi depodan teslim, limana teslim ya da kapıya teslim şeklinde yapıyoruz."
+      ]
+    ]
+  },
+  "contact": {
+    "metaTitle": "İletişim | Yusuf Seçilmiş Carpet – Gaziantep",
+    "metaDesc": "Yusuf Seçilmiş Carpet iletişim: WhatsApp +90 544 545 29 67, Başpınar OSB Şehitkamil/Gaziantep. Toptan halı fiyatı için yazın.",
+    "eyebrow": "İLETİŞİM",
+    "h1": "Bize yazın, fiyatı konuşalım.",
+    "lead": "En hızlı yol WhatsApp. Türkçe, İngilizce ve Arapça doğrudan; diğer dillerde çeviri desteğiyle yanıt veriyoruz.",
+    "waLabel": "WHATSAPP İLE YAZIN",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "formTitle": "Mesaj gönderin",
+    "name": "Ad soyad / firma",
+    "country": "Ülke",
+    "reach": "WhatsApp numarası veya e-posta",
+    "group": "İlgilendiğiniz ürün grubu",
+    "message": "Miktar ve notlarınız"
+  },
+  "footer": {
+    "tagline": "Gaziantep merkezli toptan halı tedarikçisi.",
+    "products": "Ürünler",
+    "company": "Kurumsal"
+  },
+  "blog": {
+    "title": "Blog",
+    "lead": "Toptan halı alıcıları için rehberler.",
+    "read": "Yazıyı oku"
+  },
+  "notFound": "Sayfa bulunamadı",
+  "materials": {
+    "acrylic": "Akrilik",
+    "pp": "Polipropilen (polip)",
+    "polyester": "Polyester",
+    "cotton": "Pamuk",
+    "sisal": "Sisal",
+    "mixed": "Karışım",
+    "ppflosh": "Polip + floş polyester",
+    "acrylic_pp": "Akrilik veya polip"
+  },
+  "colorNames": {
+    "red": "Kırmızı",
+    "green": "Yeşil",
+    "blue": "Mavi",
+    "beige": "Bej",
+    "brown": "Kahverengi",
+    "grey": "Gri",
+    "cream": "Krem",
+    "black": "Siyah",
+    "multi": "Çok renkli",
+    "white": "Beyaz",
+    "pink": "Pembe",
+    "yellow": "Sarı",
+    "orange": "Turuncu",
+    "purple": "Lila",
+    "turquoise": "Turkuaz",
+    "gold": "Altın / Hardal"
+  }
+}

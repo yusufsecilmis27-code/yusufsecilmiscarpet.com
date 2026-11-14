@@ -1,0 +1,51 @@
+{
+  "code": "PES1",
+  "category": "polyester",
+  "material": "polyester",
+  "colors": [
+    "cream",
+    "grey",
+    "beige",
+    "blue"
+  ],
+  "sizes": [
+    {
+      "tr": "Farklı ebat seçenekleri mevcut",
+      "en": "Available in various sizes",
+      "ar": "متوفر بمقاسات مختلفة",
+      "ru": "Доступны разные размеры",
+      "fr": "Disponible en plusieurs dimensions",
+      "ka": "ხელმისაწვდომია სხვადასხვა ზომაში"
+    }
+  ],
+  "reeds": 700,
+  "pile_mm": null,
+  "weight_gsm": 1400,
+  "name": {
+    "tr": "700 Tarak Polyester Halı",
+    "en": "700 Reeds Polyester Rug",
+    "ar": "سجاد بوليستر 700 مشط",
+    "ru": "Ковёр из полиэстера 700 reeds",
+    "fr": "Tapis polyester 700 reeds",
+    "ka": "პოლიესტერის ხალიჩა 700 reeds"
+  },
+  "desc": {
+    "tr": "700 tarak polyester halı. Göbekli klasik, modern geometrik ve bordürlü desenlerde; krem, gri, bej ve mavi tonlarında. Halı ve yolluk ebatları mevcuttur. İstediğiniz deseni WhatsApp'tan fotoğrafıyla belirtin.",
+    "en": "700-reed polyester rug. Available in classic medallion, modern geometric and bordered designs, in cream, grey, beige and blue tones. Area rug and runner sizes are available. Tell us the design you want by sending its photo on WhatsApp.",
+    "ar": "سجاد بوليستر 700 مشط. متوفر بنقوش كلاسيكية بميدالية ونقوش هندسية حديثة وبإطار، بدرجات الكريمي والرمادي والبيج والأزرق. متوفر بمقاسات السجاد والممرات. حدّد النقشة التي تريدها بإرسال صورتها عبر واتساب.",
+    "ru": "Ковёр из полиэстера, плотность 700 reeds. Рисунки: классические с медальоном, современные геометрические и с каймой; оттенки кремового, серого, бежевого и синего. Есть размеры ковров и дорожек. Нужный рисунок укажите, отправив его фото в WhatsApp.",
+    "fr": "Tapis polyester 700 reeds. Motifs classiques à médaillon, géométriques modernes et à bordure, dans des tons crème, gris, beige et bleu. Disponible en formats tapis et couloir. Indiquez le motif souhaité en envoyant sa photo sur WhatsApp.",
+    "ka": "პოლიესტერის ხალიჩა, 700 reeds. კლასიკური მედალიონიანი, თანამედროვე გეომეტრიული და ჩარჩოიანი ნახატებით; კრემისფერ, ნაცრისფერ, ბეჟ და ლურჯ ტონებში. ხელმისაწვდომია ხალიჩისა და ბილიკის ზომები. სასურველი ნახატი მიუთითეთ მისი ფოტოს გაგზავნით WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg"
+  ]
+}

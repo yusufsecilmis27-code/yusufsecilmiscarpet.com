@@ -1,0 +1,59 @@
+{
+  "code": "DKR4",
+  "category": "sisal",
+  "colors": [
+    "grey",
+    "white",
+    "cream",
+    "beige"
+  ],
+  "sizes": [
+    {
+      "tr": "İstenilen ebatta üretim",
+      "en": "Produced in any size",
+      "ar": "إنتاج بأي مقاس",
+      "ru": "Производство любого размера",
+      "fr": "Fabrication dans toutes les dimensions",
+      "ka": "წარმოება ნებისმიერი ზომით"
+    }
+  ],
+  "weight_gsm": 1300,
+  "name": {
+    "tr": "Sipariş Üretimi Sisal Halı",
+    "en": "Made-to-Order Sisal Rug",
+    "ar": "سجاد سيزال حسب الطلب",
+    "ru": "Ковёр сизаль под заказ",
+    "fr": "Tapis sisal sur commande",
+    "ka": "სიზალის ხალიჩა შეკვეთით"
+  },
+  "desc": {
+    "tr": "Sisal halı, sipariş üzerine üretilir: istenilen miktarda ve istenilen ebatta üretim sağlanır. Kabartmalı, modern geometrik desenler; gri, beyaz, krem ve bej tonlarında. Metrekare ağırlığı 1,3 kg. İstediğiniz deseni ve miktarı WhatsApp'tan fotoğrafıyla belirtin.",
+    "en": "Sisal rug made to order: produced in the quantity and size you need. Embossed, modern geometric designs in grey, white, cream and beige tones. Weight 1.3 kg per m². Send us the design and quantity you want on WhatsApp with its photo.",
+    "ar": "سجاد سيزال يُنتَج حسب الطلب: بالكمية والمقاس اللذين تحتاجهما. نقوش هندسية حديثة بارزة، بدرجات الرمادي والأبيض والكريمي والبيج. الوزن 1.3 كغ للمتر المربع. أرسل لنا النقشة والكمية المطلوبة مع الصورة عبر واتساب.",
+    "ru": "Ковёр сизаль под заказ: производим в нужном вам количестве и размере. Рельефные современные геометрические рисунки в серых, белых, кремовых и бежевых тонах. Вес 1,3 кг/м². Пришлите нужный рисунок и количество с фото в WhatsApp.",
+    "fr": "Tapis sisal fabriqué sur commande, dans la quantité et la dimension dont vous avez besoin. Motifs géométriques modernes en relief, dans des tons gris, blanc, crème et beige. Poids 1,3 kg/m². Envoyez-nous le motif et la quantité souhaités avec sa photo sur WhatsApp.",
+    "ka": "სიზალის ხალიჩა მზადდება შეკვეთით — თქვენთვის საჭირო რაოდენობითა და ზომით. რელიეფური, თანამედროვე გეომეტრიული ნახატები ნაცრისფერ, თეთრ, კრემისფერ და ბეჟ ტონებში. წონა 1,3 კგ/მ². სასურველი ნახატი და რაოდენობა ფოტოსთან ერთად გამოგვიგზავნეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+    "18.jpg",
+    "19.jpg",
+    "20.jpg"
+  ]
+}

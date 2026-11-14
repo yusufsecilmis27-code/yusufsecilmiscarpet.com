@@ -1,0 +1,56 @@
+{
+  "code": "DKR6",
+  "category": "cross",
+  "colors": [
+    "beige",
+    "brown",
+    "red",
+    "blue",
+    "cream",
+    "grey"
+  ],
+  "sizes": [
+    "160x220 cm"
+  ],
+  "badge": {
+    "tr": "Spot · Hazır Stok",
+    "en": "In Stock · Ready to Ship",
+    "ar": "متوفر في المخزون · جاهز للشحن",
+    "ru": "В наличии · Готово к отгрузке",
+    "fr": "En stock · Prêt à expédier",
+    "ka": "მარაგშია · მზადაა გასაგზავნად"
+  },
+  "packing": {
+    "tr": "Orijinal paketinde",
+    "en": "In original packaging",
+    "ar": "في تغليفه الأصلي",
+    "ru": "В оригинальной упаковке",
+    "fr": "Dans son emballage d'origine",
+    "ka": "ორიგინალ შეფუთვაში"
+  },
+  "name": {
+    "tr": "Vintage Cross Dokuma Halı",
+    "en": "Vintage Cross-Woven Rug",
+    "ar": "سجاد منسوج متقاطع بطراز عتيق",
+    "ru": "Винтажный ковёр перекрёстного плетения",
+    "fr": "Tapis vintage tissage croisé",
+    "ka": "ვინტაჟური ჯვარედინი ქსოვის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Vintage görünümlü cross dokuma halı. Eskitme etkili çizgili, etnik, klasik çiçekli ve modern desenler; bej, kahve, kiremit, lacivert ve krem tonlarında. Spot ürün: stokta mevcut, orijinal paketinde hemen teslim edilir. Stok durumunu ve fiyatı WhatsApp'tan sorun.",
+    "en": "Vintage-look cross-woven rug. Distressed striped, ethnic, classic floral and modern designs in beige, brown, terracotta, navy and cream tones. In stock and delivered right away in its original packaging. Ask us on WhatsApp for current stock and price.",
+    "ar": "سجاد منسوج متقاطع بطراز عتيق. نقوش مخططة ومعتّقة وإثنية وزهرية كلاسيكية وحديثة، بدرجات البيج والبني والقرميدي والكحلي والكريمي. متوفر في المخزون ويُسلَّم فوراً في تغليفه الأصلي. اسألنا عبر واتساب عن المخزون الحالي والسعر.",
+    "ru": "Винтажный ковёр перекрёстного плетения. Рисунки с эффектом старения: полосатые, этнические, классические цветочные и современные, в бежевых, коричневых, терракотовых, тёмно-синих и кремовых тонах. В наличии, отгрузка сразу в оригинальной упаковке. Об остатке и цене спросите в WhatsApp.",
+    "fr": "Tapis vintage tissage croisé. Motifs vieillis rayés, ethniques, floraux classiques et modernes, dans des tons beige, marron, terracotta, bleu marine et crème. En stock, livré immédiatement dans son emballage d'origine. Demandez-nous le stock actuel et le prix sur WhatsApp.",
+    "ka": "ვინტაჟური იერის ჯვარედინი ქსოვის ხალიჩა. დაძველებული ზოლიანი, ეთნიკური, კლასიკური ყვავილოვანი და თანამედროვე ნახატები ბეჟ, ყავისფერ, აგურისფერ, მუქ ლურჯ და კრემისფერ ტონებში. მარაგშია და მაშინვე მიეწოდება ორიგინალ შეფუთვაში. მიმდინარე მარაგისა და ფასის შესახებ გვკითხეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ]
+}

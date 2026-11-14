@@ -1,0 +1,310 @@
+{
+  "langName": "English",
+  "dir": "ltr",
+  "ogLocale": "en_US",
+  "topbar": "Wholesale & export · No minimum order · Gaziantep, Türkiye",
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "wholesale": "Wholesale & Export",
+    "sourcing": "Sourcing & Quality",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "lang": "Language"
+  },
+  "cta": {
+    "wa": "Get Prices on WhatsApp",
+    "browse": "Browse Products",
+    "details": "Details",
+    "quote": "Request a Quote",
+    "call": "Call",
+    "allCats": "View all categories",
+    "directions": "Get directions",
+    "send": "Send via WhatsApp"
+  },
+  "home": {
+    "metaTitle": "Turkish Carpet Wholesaler in Gaziantep | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Wholesale Turkish carpets from Gaziantep: mosque carpets, polypropylene, polyester, shaggy rugs and more. No minimum order, worldwide shipping. Get prices on WhatsApp.",
+    "eyebrow": "WHOLESALE CARPETS FROM GAZIANTEP TO THE WORLD",
+    "h1": "Many manufacturers' carpets, one supplier.",
+    "lead": "We supply 15 product groups wholesale from Gaziantep, from mosque carpets to polypropylene and polyester rugs, and ship worldwide. Order anything from a single bale to a full container.",
+    "trust": [
+      "No minimum order",
+      "15 product groups",
+      "Ex-warehouse, to port or to your door"
+    ],
+    "catsEyebrow": "PRODUCT GROUPS",
+    "catsTitle": "Most requested categories",
+    "newTitle": "New products",
+    "newEyebrow": "NEW"
+  },
+  "why": {
+    "title": "Four things that make wholesale buying easier",
+    "items": [
+      [
+        "One source, wide range",
+        "Buy from many Gaziantep manufacturers in one order, with one point of contact."
+      ],
+      [
+        "No minimum order",
+        "Order a single bale or a mixed-model container."
+      ],
+      [
+        "Flexible shipping",
+        "Ex-warehouse, delivered to port, or delivered to your door. Logistics is charged separately."
+      ],
+      [
+        "We speak your language",
+        "We reply directly in Turkish, English and Arabic, and with translation support in other languages."
+      ]
+    ]
+  },
+  "who": {
+    "eyebrow": "WHO WE WORK WITH",
+    "title": "Find what fits your business",
+    "items": [
+      [
+        "Importers & wholesalers",
+        "Combine 15 product groups in a single container or bulk order."
+      ],
+      [
+        "Carpet stores",
+        "Stock your shop with mixed models in small quantities."
+      ],
+      [
+        "Mosques, associations & foundations",
+        "Send us the floor plan; we calculate the area and supply mosque carpet cut to size."
+      ],
+      [
+        "Hotels & project contractors",
+        "Project-based quotes for large-area rolls and custom sizes."
+      ]
+    ]
+  },
+  "steps": {
+    "title": "Ordering takes four steps",
+    "items": [
+      [
+        "Choose products",
+        "Note the codes of the models you like in the catalogue."
+      ],
+      [
+        "Get prices on WhatsApp",
+        "The product code is added to your message and we send the current price."
+      ],
+      [
+        "Confirm the order",
+        "We agree on quantity, sizes and payment terms together."
+      ],
+      [
+        "Loading & shipping",
+        "We load according to the delivery method you choose."
+      ]
+    ]
+  },
+  "band": {
+    "title": "Message us for the current price list",
+    "text": "Just tell us the product group you need and your country."
+  },
+  "products": {
+    "metaTitle": "Wholesale Carpet Catalogue | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Wholesale carpet catalogue in 15 categories: mosque carpets, prayer rugs, polypropylene, polyester, shaggy, kilims, kids' rugs and more.",
+    "h1": "Wholesale Carpet Catalogue",
+    "lead": "Filter products across 15 categories by category, material and colour. Tap a product's WhatsApp button for its price.",
+    "allProducts": "All products"
+  },
+  "cat": {
+    "metaTitle": "Wholesale {name} from Turkey | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Wholesale {name} from Gaziantep, Turkey. No minimum order, export shipping worldwide. Message us on WhatsApp for current prices.",
+    "h1": "Wholesale {name}",
+    "lead": "We supply {name} wholesale from Gaziantep. There is no minimum order; tap a product's WhatsApp button for the current price."
+  },
+  "filter": {
+    "title": "Filters",
+    "category": "CATEGORY",
+    "material": "MATERIAL",
+    "color": "COLOUR",
+    "search": "Product code or name",
+    "none": "No products match these filters.",
+    "empty": "Products in this category will be added soon. Message us on WhatsApp for current models.",
+    "count": "{n} products",
+    "reset": "Clear filters",
+    "helpTitle": "Can't find the design you need?",
+    "helpText": "Send us a photo and we will source a similar one."
+  },
+  "product": {
+    "metaTitle": "{name} – Wholesale {cat} | Yusuf Seçilmiş Carpet",
+    "code": "Code",
+    "colors": "COLOUR OPTIONS",
+    "sizes": "SIZES",
+    "specs": "SPECIFICATIONS",
+    "material": "Material",
+    "pile": "Pile height",
+    "weight": "Weight",
+    "backing": "Backing",
+    "packing": "Packing",
+    "origin": "Origin",
+    "originValue": "Türkiye (Gaziantep)",
+    "waTitle": "Message us for the wholesale price",
+    "waNote": "This message opens ready in WhatsApp with the product code included.",
+    "related": "Similar products",
+    "photo": "Photo",
+    "perks": [
+      [
+        "No minimum order",
+        "From a single bale to a container."
+      ],
+      [
+        "Flexible shipping",
+        "Ex-warehouse, to port or to your door."
+      ],
+      [
+        "Mixed orders",
+        "Combine different product groups in one shipment."
+      ]
+    ],
+    "reeds": "Reeds",
+    "videos": "Videos"
+  },
+  "wa": {
+    "product": "Hello, I would like the wholesale price for {name}, code {code}.",
+    "general": "Hello, I would like information about your wholesale carpet prices.",
+    "form": "Hello, I am writing from your website."
+  },
+  "wholesale": {
+    "metaTitle": "Wholesale Carpets & Export from Turkey | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Wholesale carpet supply and export from Gaziantep, Turkey. No minimum order; ex-warehouse, to port or door delivery. For importers, stores, mosques and projects.",
+    "eyebrow": "WHOLESALE & EXPORT",
+    "h1": "From one bale to a container, from Gaziantep to your door.",
+    "lead": "We sell wholesale in Türkiye and for export. We set no quantity limit and load according to the delivery method you prefer.",
+    "whoTitle": "How we work with each buyer",
+    "deliveryTitle": "Delivery options",
+    "deliveryNote": "We load any way you need. Freight and logistics are a service charged separately from the product price.",
+    "delivery": [
+      [
+        "EX-WAREHOUSE",
+        "Collect with your own truck",
+        "Goods are packed and loaded onto your vehicle at our warehouse in Gaziantep."
+      ],
+      [
+        "TO PORT",
+        "To the port or border gate",
+        "We deliver the cargo to the agreed port or customs gate."
+      ],
+      [
+        "TO DOOR",
+        "To your address",
+        "Shipment by road or sea to the address in your country."
+      ]
+    ],
+    "regionsTitle": "Regions we ship to",
+    "regions": [
+      "Iraq, Jordan, Syria and the Arab region",
+      "Tunisia and Africa",
+      "Turkic countries",
+      "Russia, Ukraine, Belarus",
+      "Georgia and neighbouring countries",
+      "Europe",
+      "The Americas"
+    ],
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      [
+        "Do you have a minimum order quantity?",
+        "No. You can order a single bale or a mixed-model container."
+      ],
+      [
+        "How do I get prices?",
+        "We do not list prices on the site. Tap the WhatsApp button on a product page; the product code is added to the message and we send the current wholesale price."
+      ],
+      [
+        "Can I combine different product groups in one order?",
+        "Yes. You can combine products from different categories in one order and one shipment."
+      ],
+      [
+        "Which languages can I use?",
+        "We reply directly in Turkish, English and Arabic, and help in other languages with translation support."
+      ]
+    ],
+    "formTitle": "Request a wholesale quote",
+    "formNote": "Your details are prepared as a WhatsApp message; WhatsApp opens for you to send it."
+  },
+  "sourcing": {
+    "metaTitle": "Sourcing & Quality | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Yusuf Seçilmiş Carpet sources carpets from manufacturers in Gaziantep and supplies them wholesale across Türkiye and worldwide.",
+    "eyebrow": "SOURCING & QUALITY",
+    "h1": "Sourced in the carpet capital, through one contact.",
+    "lead": "Yusuf Seçilmiş Carpet is a wholesale carpet supplier based in Gaziantep. We buy from manufacturers and supply buyers in Türkiye and abroad.",
+    "sections": [
+      [
+        "One-stop sourcing",
+        "We bring the products of many Gaziantep manufacturers into one catalogue. You can buy 15 product groups in a single order instead of dealing with each factory separately."
+      ],
+      [
+        "Domestic and export experience",
+        "We have worked wholesale for years, both within Türkiye and in export. We know what buyers in different countries expect in products, packing and shipping."
+      ],
+      [
+        "Packing and loading",
+        "Goods are packed in bales or rolls. We load ex-warehouse, to port or to your door."
+      ]
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contact | Yusuf Seçilmiş Carpet – Gaziantep, Türkiye",
+    "metaDesc": "Contact Yusuf Seçilmiş Carpet: WhatsApp +90 544 545 29 67, Başpınar OIZ, Şehitkamil/Gaziantep, Türkiye. Message us for wholesale carpet prices.",
+    "eyebrow": "CONTACT",
+    "h1": "Message us and let's talk prices.",
+    "lead": "WhatsApp is the fastest way. We reply directly in Turkish, English and Arabic, and with translation support in other languages.",
+    "waLabel": "MESSAGE US ON WHATSAPP",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "formTitle": "Send a message",
+    "name": "Name / company",
+    "country": "Country",
+    "reach": "WhatsApp number or email",
+    "group": "Product group you are interested in",
+    "message": "Quantity and notes"
+  },
+  "footer": {
+    "tagline": "Wholesale carpet supplier based in Gaziantep, Türkiye.",
+    "products": "Products",
+    "company": "Company"
+  },
+  "blog": {
+    "title": "Blog",
+    "lead": "Guides for wholesale carpet buyers.",
+    "read": "Read article"
+  },
+  "notFound": "Page not found",
+  "materials": {
+    "acrylic": "Acrylic",
+    "pp": "Polypropylene",
+    "polyester": "Polyester",
+    "cotton": "Cotton",
+    "sisal": "Sisal",
+    "mixed": "Blend",
+    "ppflosh": "Polypropylene + flosh polyester",
+    "acrylic_pp": "Acrylic or polypropylene"
+  },
+  "colorNames": {
+    "red": "Red",
+    "green": "Green",
+    "blue": "Blue",
+    "beige": "Beige",
+    "brown": "Brown",
+    "grey": "Grey",
+    "cream": "Cream",
+    "black": "Black",
+    "multi": "Multicolour",
+    "white": "White",
+    "pink": "Pink",
+    "yellow": "Yellow",
+    "orange": "Orange",
+    "purple": "Lilac",
+    "turquoise": "Turquoise",
+    "gold": "Gold / Mustard"
+  }
+}

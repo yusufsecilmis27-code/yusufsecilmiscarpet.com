@@ -1,0 +1,60 @@
+{
+  "code": "PES2",
+  "category": "polyester",
+  "material": "polyester",
+  "contain": true,
+  "colors": [
+    "beige",
+    "brown",
+    "grey",
+    "cream"
+  ],
+  "sizes": [
+    "100x200 cm",
+    "100x300 cm",
+    "120x180 cm",
+    "160x230 cm",
+    "200x290 cm",
+    "240x340 cm",
+    "300x400 cm"
+  ],
+  "weight_gsm": 2000,
+  "name": {
+    "tr": "Sipariş Üretimi Polyester Halı",
+    "en": "Made-to-Order Polyester Rug",
+    "ar": "سجاد بوليستر حسب الطلب",
+    "ru": "Ковёр из полиэстера под заказ",
+    "fr": "Tapis polyester sur commande",
+    "ka": "პოლიესტერის ხალიჩა შეკვეთით"
+  },
+  "desc": {
+    "tr": "Polyester halı, sipariş üzerine üretilir; hazır stok bulunmaz, istenirse üretim sağlanır. Mermer görünümlü, eskitme, modern çerçeveli ve göbekli klasik desenler; bej, kahve, gri ve krem tonlarında. Metrekare ağırlığı 2 kg. İstediğiniz deseni ve ebadı WhatsApp'tan görselle belirtin.",
+    "en": "Polyester rug, made to order: there is no ready stock, and we produce on request. Marble-look, distressed, modern framed and classic medallion designs in beige, brown, grey and cream tones. Weight 2 kg per m². Send us the design and size you want on WhatsApp with its image.",
+    "ar": "سجاد بوليستر يُنتَج حسب الطلب: لا يوجد مخزون جاهز، ونُنتج عند الطلب. نقوش بمظهر الرخام، ونقوش معتّقة، وبإطار حديث، وكلاسيكية بميدالية، بدرجات البيج والبني والرمادي والكريمي. الوزن 2 كغ للمتر المربع. أرسل لنا النقشة والمقاس المطلوبين مع الصورة عبر واتساب.",
+    "ru": "Ковёр из полиэстера под заказ: готового запаса нет, производим по запросу. Рисунки под мрамор, винтажные, современные с рамкой и классические с медальоном, в бежевых, коричневых, серых и кремовых тонах. Вес 2 кг/м². Пришлите нужный рисунок и размер с изображением в WhatsApp.",
+    "fr": "Tapis polyester fabriqué sur commande : pas de stock disponible, nous produisons sur demande. Motifs effet marbre, vieillis, modernes encadrés et classiques à médaillon, dans des tons beige, marron, gris et crème. Poids 2 kg/m². Envoyez-nous le motif et la dimension souhaités avec l'image sur WhatsApp.",
+    "ka": "პოლიესტერის ხალიჩა მზადდება შეკვეთით: მზა მარაგი არ გვაქვს, ვაწარმოებთ მოთხოვნისამებრ. მარმარილოს იერის, დაძველებული, თანამედროვე ჩარჩოიანი და კლასიკური მედალიონიანი ნახატები ბეჟ, ყავისფერ, ნაცრისფერ და კრემისფერ ტონებში. წონა 2 კგ/მ². სასურველი ნახატი და ზომა გამოსახულებასთან ერთად გამოგვიგზავნეთ WhatsApp-ზე."
+  },
+  "images": [
+    "15.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "16.jpg",
+    "17.jpg",
+    "18.jpg",
+    "19.jpg",
+    "20.jpg"
+  ]
+}

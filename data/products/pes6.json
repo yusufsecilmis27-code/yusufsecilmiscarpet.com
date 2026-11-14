@@ -1,0 +1,52 @@
+{
+  "code": "PES6",
+  "category": "polyester",
+  "home": true,
+  "priority": 8,
+  "contain": true,
+  "colors": [
+    "red",
+    "blue",
+    "cream",
+    "beige",
+    "black"
+  ],
+  "sizes": [
+    "160x230 cm",
+    "200x290 cm",
+    "240x340 cm"
+  ],
+  "weight_gsm": 2500,
+  "badge": {
+    "tr": "Seri Üretim",
+    "en": "Bulk Production",
+    "ar": "إنتاج بالجملة",
+    "ru": "Серийное производство",
+    "fr": "Production en série",
+    "ka": "სერიული წარმოება"
+  },
+  "name": {
+    "tr": "Klasik Göbekli Polyester Halı",
+    "en": "Classic Medallion Polyester Rug",
+    "ar": "سجاد بوليستر كلاسيكي بميدالية",
+    "ru": "Классический ковёр из полиэстера с медальоном",
+    "fr": "Tapis polyester classique à médaillon",
+    "ka": "კლასიკური მედალიონიანი პოლიესტერის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Klasik göbekli, saçaklı polyester halı; seri üretimle hazırlanır. Bordo, mavi ve lacivert zemin üzerine krem bordürlü, çiçekli İran desenleri. Metrekare ağırlığı 2,5 kg. 50'den fazla desen seçeneği vardır; görsellerdekiler yalnızca birkaç örnektir. İstediğiniz deseni fotoğraftaki desen koduyla (örneğin 3658 BORDO) WhatsApp'tan belirtin.",
+    "en": "Classic fringed medallion polyester rug, made in bulk production runs. Persian floral designs on burgundy, blue and navy grounds with cream borders. Weight 2.5 kg per m². More than 50 designs are available; the images show only a few examples. Tell us the design you want on WhatsApp by the code shown on its image (for example 3658 BORDO).",
+    "ar": "سجاد بوليستر كلاسيكي بميدالية وأهداب، يُنتَج إنتاجاً متسلسلاً. نقوش زهرية فارسية على أرضيات عنابية وزرقاء وكحلية بإطارات كريمية. الوزن 2.5 كغ للمتر المربع. تتوفر أكثر من 50 نقشة؛ الصور تعرض بعض الأمثلة فقط. حدّد النقشة التي تريدها عبر واتساب بالرمز المكتوب على صورتها (مثلاً 3658 BORDO).",
+    "ru": "Классический ковёр из полиэстера с медальоном и бахромой, серийное производство. Персидские цветочные рисунки на бордовом, синем и тёмно-синем фоне с кремовой каймой. Вес 2,5 кг/м². Доступно более 50 рисунков; на изображениях показаны лишь несколько примеров. Нужный рисунок укажите в WhatsApp по коду на изображении (например, 3658 BORDO).",
+    "fr": "Tapis polyester classique à médaillon et franges, fabriqué en production en série. Motifs floraux persans sur fonds bordeaux, bleu et bleu marine, bordures crème. Poids 2,5 kg/m². Plus de 50 motifs sont disponibles ; les images n'en montrent que quelques exemples. Indiquez le motif souhaité sur WhatsApp avec le code inscrit sur son image (par exemple 3658 BORDO).",
+    "ka": "კლასიკური მედალიონიანი პოლიესტერის ხალიჩა ფოჩებით, სერიული წარმოების. სპარსული ყვავილოვანი ნახატები შინდისფერ, ლურჯ და მუქ ლურჯ ფონზე, კრემისფერი ჩარჩოებით. წონა 2,5 კგ/მ². ხელმისაწვდომია 50-ზე მეტი ნახატი; სურათებზე მხოლოდ რამდენიმე მაგალითია. სასურველი ნახატი მიუთითეთ WhatsApp-ზე გამოსახულებაზე მოცემული კოდით (მაგ. 3658 BORDO)."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "material": "polyester"
+}

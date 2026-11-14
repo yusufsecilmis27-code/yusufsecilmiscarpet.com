@@ -1,0 +1,690 @@
+{
+  "code": "CAMI1",
+  "category": "mosque",
+  "contain": true,
+  "labels": [
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Vişne",
+      "en": "Cherry Red",
+      "ar": "أحمر كرزي",
+      "ru": "Вишнёвый",
+      "fr": "Rouge cerise",
+      "ka": "ალუბლისფერი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Koyu Çini",
+      "en": "Dark Teal",
+      "ar": "أزرق مخضر داكن",
+      "ru": "Тёмно-бирюзовый",
+      "fr": "Bleu canard foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Koyu Mavi",
+      "en": "Dark Blue",
+      "ar": "أزرق داكن",
+      "ru": "Тёмно-синий",
+      "fr": "Bleu foncé",
+      "ka": "მუქი ლურჯი"
+    },
+    {
+      "tr": "Açık Çini",
+      "en": "Light Turquoise",
+      "ar": "فيروزي فاتح",
+      "ru": "Светло-бирюзовый",
+      "fr": "Turquoise clair",
+      "ka": "ღია ფირუზისფერი"
+    },
+    {
+      "tr": "Bej",
+      "en": "Beige",
+      "ar": "بيج",
+      "ru": "Бежевый",
+      "fr": "Beige",
+      "ka": "ბეჟი"
+    },
+    {
+      "tr": "Bordo",
+      "en": "Burgundy",
+      "ar": "عنابي",
+      "ru": "Бордовый",
+      "fr": "Bordeaux",
+      "ka": "შინდისფერი"
+    },
+    {
+      "tr": "Hardal",
+      "en": "Mustard",
+      "ar": "خردلي",
+      "ru": "Горчичный",
+      "fr": "Moutarde",
+      "ka": "მდოგვისფერი"
+    },
+    {
+      "tr": "Mavi",
+      "en": "Blue",
+      "ar": "أزرق",
+      "ru": "Синий",
+      "fr": "Bleu",
+      "ka": "ლურჯი"
+    },
+    {
+      "tr": "Turkuaz",
+      "en": "Turquoise",
+      "ar": "فيروزي",
+      "ru": "Бирюзовый",
+      "fr": "Turquoise",
+      "ka": "ფირუზისფერი"
+    },
+    {
+      "tr": "Kırmızı - Bordo",
+      "en": "Red - Burgundy",
+      "ar": "أحمر - عنابي",
+      "ru": "Красный - бордовый",
+      "fr": "Rouge - bordeaux",
+      "ka": "წითელი - შინდისფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Turkuaz",
+      "en": "Dark Turquoise",
+      "ar": "فيروزي داكن",
+      "ru": "Тёмная бирюза",
+      "fr": "Turquoise foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Mavi",
+      "en": "Blue",
+      "ar": "أزرق",
+      "ru": "Синий",
+      "fr": "Bleu",
+      "ka": "ლურჯი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Koyu Turkuaz",
+      "en": "Dark Turquoise",
+      "ar": "فيروزي داكن",
+      "ru": "Тёмная бирюза",
+      "fr": "Turquoise foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Kırmızı - Bordo",
+      "en": "Red - Burgundy",
+      "ar": "أحمر - عنابي",
+      "ru": "Красный - бордовый",
+      "fr": "Rouge - bordeaux",
+      "ka": "წითელი - შინდისფერი"
+    },
+    {
+      "tr": "Gold",
+      "en": "Gold",
+      "ar": "ذهبي",
+      "ru": "Золотой",
+      "fr": "Or",
+      "ka": "ოქროსფერი"
+    },
+    {
+      "tr": "Kiremit",
+      "en": "Terracotta",
+      "ar": "قرميدي",
+      "ru": "Терракотовый",
+      "fr": "Terracotta",
+      "ka": "აგურისფერი"
+    },
+    {
+      "tr": "Turkuaz",
+      "en": "Turquoise",
+      "ar": "فيروزي",
+      "ru": "Бирюзовый",
+      "fr": "Turquoise",
+      "ka": "ფირუზისფერი"
+    },
+    {
+      "tr": "Turkuaz",
+      "en": "Turquoise",
+      "ar": "فيروزي",
+      "ru": "Бирюзовый",
+      "fr": "Turquoise",
+      "ka": "ფირუზისფერი"
+    },
+    {
+      "tr": "Kırmızı - Bordo",
+      "en": "Red - Burgundy",
+      "ar": "أحمر - عنابي",
+      "ru": "Красный - бордовый",
+      "fr": "Rouge - bordeaux",
+      "ka": "წითელი - შინდისფერი"
+    },
+    {
+      "tr": "Gold",
+      "en": "Gold",
+      "ar": "ذهبي",
+      "ru": "Золотой",
+      "fr": "Or",
+      "ka": "ოქროსფერი"
+    },
+    {
+      "tr": "Koyu Turkuaz",
+      "en": "Dark Turquoise",
+      "ar": "فيروزي داكن",
+      "ru": "Тёмная бирюза",
+      "fr": "Turquoise foncé",
+      "ka": "მუქი ფირუზისფერი"
+    },
+    {
+      "tr": "Mavi",
+      "en": "Blue",
+      "ar": "أزرق",
+      "ru": "Синий",
+      "fr": "Bleu",
+      "ka": "ლურჯი"
+    },
+    {
+      "tr": "Turkuaz",
+      "en": "Turquoise",
+      "ar": "فيروزي",
+      "ru": "Бирюзовый",
+      "fr": "Turquoise",
+      "ka": "ფირუზისფერი"
+    },
+    {
+      "tr": "Kırmızı - Bordo",
+      "en": "Red - Burgundy",
+      "ar": "أحمر - عنابي",
+      "ru": "Красный - бордовый",
+      "fr": "Rouge - bordeaux",
+      "ka": "წითელი - შინდისფერი"
+    },
+    {
+      "tr": "Gold",
+      "en": "Gold",
+      "ar": "ذهبي",
+      "ru": "Золотой",
+      "fr": "Or",
+      "ka": "ოქროსფერი"
+    }
+  ],
+  "colors": [
+    "turquoise",
+    "beige",
+    "red",
+    "gold",
+    "orange",
+    "blue"
+  ],
+  "name": {
+    "tr": "Cami Halısı",
+    "en": "Mosque Carpet",
+    "ar": "سجاد مساجد",
+    "ru": "Ковёр для мечети",
+    "fr": "Tapis de mosquée",
+    "ka": "მეჩეთის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Saf bordürlü cami halısı; 70 desen ve renk seçeneği. Çini, turkuaz, mavi, bordo, kiremit, hardal, bej ve vişne tonlarında. Akrilik ve polip seçenekleriyle, 133 cm ve 400 cm enindeki 25 metrelik rulolarda; metrekare ağırlığı 2 kg ile 4,5 kg arasında farklı kalite seçenekleri vardır. İstediğiniz deseni WhatsApp'tan fotoğrafıyla ve renk adıyla belirtin; caminizin ölçüsünü de yazarsanız metraj için teklif hazırlarız.",
+    "en": "Mosque carpet with prayer-row borders, in 70 design and colour options: turquoise, blue, burgundy, terracotta, mustard, beige and cherry tones. Available in acrylic or polypropylene, in 25-metre rolls 133 cm or 400 cm wide, with quality options from 2 kg to 4.5 kg per m². Send us the design you want on WhatsApp with its photo and colour name; add your mosque's dimensions and we will prepare a quote for the area.",
+    "ar": "سجاد مساجد بإطار الصفوف، متوفر بـ 70 نقشة ولوناً: درجات الفيروزي والأزرق والعنابي والقرميدي والخردلي والبيج والكرزي. متوفر بالأكريليك أو البولي بروبلين، في رولات بطول 25 متراً وعرض 133 سم أو 400 سم، مع خيارات جودة من 2 كغ إلى 4.5 كغ للمتر المربع. أرسل لنا النقشة التي تريدها مع صورتها واسم لونها عبر واتساب، وأضف مقاسات مسجدك لنُعدّ لك عرض سعر حسب المساحة.",
+    "ru": "Ковёр для мечети с каймой молитвенных рядов: 70 вариантов рисунка и цвета — бирюзовые, синие, бордовые, терракотовые, горчичные, бежевые и вишнёвые тона. Акрил или полипропилен, рулоны по 25 м шириной 133 см или 400 см, варианты качества от 2 до 4,5 кг/м². Пришлите в WhatsApp фото нужного рисунка и название цвета, укажите размеры мечети — мы подготовим расчёт по площади.",
+    "fr": "Tapis de mosquée à bordures de rangées de prière, en 70 motifs et coloris : tons turquoise, bleu, bordeaux, terracotta, moutarde, beige et cerise. Disponible en acrylique ou en polypropylène, en rouleaux de 25 mètres de 133 cm ou 400 cm de large, avec des qualités de 2 kg à 4,5 kg/m². Envoyez-nous sur WhatsApp la photo du motif souhaité et le nom de sa couleur ; indiquez les dimensions de votre mosquée et nous préparerons un devis pour la surface.",
+    "ka": "მეჩეთის ხალიჩა სალოცავი რიგების ჩარჩოთი, 70 ნახატისა და ფერის ვარიანტით: ფირუზისფერი, ლურჯი, შინდისფერი, აგურისფერი, მდოგვისფერი, ბეჟი და ალუბლისფერი ტონები. ხელმისაწვდომია აკრილით ან პოლიპროპილენით, 25-მეტრიან რულონებში 133 სმ ან 400 სმ სიგანით, ხარისხის ვარიანტებით 2-დან 4,5 კგ/მ²-მდე. გამოგვიგზავნეთ WhatsApp-ზე სასურველი ნახატის ფოტო და ფერის სახელი, მიუთითეთ მეჩეთის ზომები და ფართობის მიხედვით მოგიმზადებთ შეთავაზებას."
+  },
+  "images": [
+    "3.png",
+    "1.png",
+    "2.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png",
+    "8.png",
+    "9.png",
+    "10.png",
+    "11.png",
+    "12.png",
+    "13.png",
+    "14.png",
+    "15.png",
+    "16.png",
+    "17.png",
+    "18.png",
+    "19.png",
+    "20.png",
+    "21.png",
+    "22.png",
+    "23.png",
+    "24.png",
+    "25.png",
+    "26.png",
+    "27.png",
+    "28.png",
+    "29.png",
+    "30.png",
+    "31.png",
+    "32.png",
+    "33.png",
+    "34.png",
+    "35.png",
+    "36.png",
+    "37.png",
+    "38.png",
+    "39.png",
+    "40.png",
+    "41.png",
+    "42.png",
+    "43.png",
+    "44.png",
+    "45.png",
+    "46.png",
+    "47.png",
+    "48.png",
+    "49.png",
+    "50.png",
+    "51.png",
+    "52.png",
+    "53.png",
+    "54.png",
+    "55.png",
+    "56.png",
+    "57.png",
+    "58.png",
+    "59.png",
+    "60.png",
+    "61.png",
+    "62.png",
+    "63.png",
+    "64.png",
+    "65.png",
+    "66.png",
+    "67.png",
+    "68.png",
+    "69.png",
+    "70.png"
+  ],
+  "material": "acrylic_pp",
+  "sizes": [
+    {
+      "tr": "133 cm × 25 m rulo",
+      "en": "133 cm × 25 m roll",
+      "ar": "133 cm × 25 m رول",
+      "ru": "133 cm × 25 m рулон",
+      "fr": "133 cm × 25 m rouleau",
+      "ka": "133 cm × 25 m რულონი"
+    },
+    {
+      "tr": "400 cm × 25 m rulo",
+      "en": "400 cm × 25 m roll",
+      "ar": "400 cm × 25 m رول",
+      "ru": "400 cm × 25 m рулон",
+      "fr": "400 cm × 25 m rouleau",
+      "ka": "400 cm × 25 m რულონი"
+    }
+  ],
+  "weight_text": {
+    "tr": "2 / 2,5 / 3 / 3,5 / 4 / 4,2 / 4,5 kg/m²",
+    "en": "2 / 2.5 / 3 / 3.5 / 4 / 4.2 / 4.5 kg/m²",
+    "ar": "2 / 2.5 / 3 / 3.5 / 4 / 4.2 / 4.5 kg/m²",
+    "ru": "2 / 2,5 / 3 / 3,5 / 4 / 4,2 / 4,5 kg/m²",
+    "fr": "2 / 2,5 / 3 / 3,5 / 4 / 4,2 / 4,5 kg/m²",
+    "ka": "2 / 2,5 / 3 / 3,5 / 4 / 4,2 / 4,5 kg/m²"
+  }
+}

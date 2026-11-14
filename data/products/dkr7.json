@@ -1,0 +1,52 @@
+{
+  "code": "DKR7",
+  "category": "nonslip",
+  "colors": [
+    "red",
+    "blue",
+    "orange",
+    "cream",
+    "black"
+  ],
+  "sizes": [
+    {
+      "tr": "Her ebatta üretim",
+      "en": "Produced in any size",
+      "ar": "إنتاج بأي مقاس",
+      "ru": "Производство любого размера",
+      "fr": "Fabrication dans toutes les dimensions",
+      "ka": "წარმოება ნებისმიერი ზომით"
+    }
+  ],
+  "backing": {
+    "tr": "Kaymaz taban",
+    "en": "Non-slip backing",
+    "ar": "قاعدة مانعة للانزلاق",
+    "ru": "Нескользящая основа",
+    "fr": "Dossier antidérapant",
+    "ka": "არასრიალა ძირი"
+  },
+  "name": {
+    "tr": "Dijital Baskı Kaymaz Taban Halı",
+    "en": "Digital Print Non-Slip Rug",
+    "ar": "سجاد مطبوع رقمياً بقاعدة مانعة للانزلاق",
+    "ru": "Ковёр с цифровой печатью на нескользящей основе",
+    "fr": "Tapis imprimé antidérapant",
+    "ka": "ციფრული ბეჭდვის არასრიალა ხალიჩა"
+  },
+  "desc": {
+    "tr": "Kaymaz tabanlı dijital baskı halı. Klasik göbekli, buhara, etnik çizgili, eskitme ve modern çiçek desenleri; canlı kırmızı, lacivert ve turuncu tonlarında. Her ebatta üretim sağlanır. İstediğiniz deseni ve ölçüyü WhatsApp'tan fotoğrafıyla belirtin.",
+    "en": "Digital print rug with non-slip backing. Classic medallion, Bokhara, ethnic striped, distressed and modern floral designs in vivid red, navy and orange tones. Produced in any size. Send us the design and size you want on WhatsApp with its photo.",
+    "ar": "سجاد مطبوع رقمياً بقاعدة مانعة للانزلاق. نقوش كلاسيكية بميدالية، وبخارى، ومخططة إثنية، ومعتّقة، وزهرية حديثة، بدرجات الأحمر والكحلي والبرتقالي الزاهية. يُنتَج بأي مقاس. أرسل لنا النقشة والمقاس المطلوبين مع الصورة عبر واتساب.",
+    "ru": "Ковёр с цифровой печатью на нескользящей основе. Классические рисунки с медальоном, бухара, этнические полосы, винтажные и современные цветочные, в ярких красных, тёмно-синих и оранжевых тонах. Производство любого размера. Пришлите нужный рисунок и размер с фото в WhatsApp.",
+    "fr": "Tapis imprimé numériquement à dossier antidérapant. Motifs classiques à médaillon, boukhara, rayures ethniques, vieillis et floraux modernes, dans des tons vifs rouge, bleu marine et orange. Fabriqué dans toutes les dimensions. Envoyez-nous le motif et la dimension souhaités avec la photo sur WhatsApp.",
+    "ka": "ციფრული ბეჭდვის ხალიჩა არასრიალა ძირით. კლასიკური მედალიონიანი, ბუხარა, ეთნიკური ზოლიანი, დაძველებული და თანამედროვე ყვავილოვანი ნახატები მკვეთრ წითელ, მუქ ლურჯ და ნარინჯისფერ ტონებში. მზადდება ნებისმიერი ზომით. სასურველი ნახატი და ზომა ფოტოსთან ერთად გამოგვიგზავნეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ]
+}

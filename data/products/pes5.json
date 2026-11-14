@@ -1,0 +1,51 @@
+{
+  "code": "PES5",
+  "category": "polyester",
+  "material": "polyester",
+  "colors": [
+    "blue",
+    "red",
+    "cream",
+    "beige",
+    "grey",
+    "brown"
+  ],
+  "sizes": [
+    "160x230 cm",
+    "200x290 cm",
+    "240x340 cm"
+  ],
+  "weight_gsm": 2200,
+  "wide": true,
+  "badge": {
+    "tr": "Hazır Stok",
+    "en": "In Stock",
+    "ar": "متوفر في المخزون",
+    "ru": "В наличии",
+    "fr": "En stock",
+    "ka": "მარაგშია"
+  },
+  "name": {
+    "tr": "Polyester Halı",
+    "en": "Polyester Rug",
+    "ar": "سجاد بوليستر",
+    "ru": "Ковёр из полиэстера",
+    "fr": "Tapis polyester",
+    "ka": "პოლიესტერის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Polyester halı, mevcut stoktan hemen teslim. Göbekli klasik, av sahneli, eskitme modern ve dalga desenli modeller; lacivert, bordo, krem, bej ve gri tonlarında. Metrekare ağırlığı 2,2 kg. Stok durumunu ve fiyatı WhatsApp'tan sorun.",
+    "en": "Polyester rug, available from stock for immediate delivery. Classic medallion, hunting-scene, distressed modern and wave designs in navy, burgundy, cream, beige and grey tones. Weight 2.2 kg per m². Ask us on WhatsApp for current stock and price.",
+    "ar": "سجاد بوليستر متوفر في المخزون للتسليم الفوري. نقوش كلاسيكية بميدالية، ومشاهد صيد، وحديثة معتّقة، وتموجات، بدرجات الكحلي والعنابي والكريمي والبيج والرمادي. الوزن 2.2 كغ للمتر المربع. اسألنا عبر واتساب عن المخزون الحالي والسعر.",
+    "ru": "Ковёр из полиэстера в наличии, отгрузка сразу. Классические рисунки с медальоном, сцены охоты, современные винтажные и волнообразные, в тёмно-синих, бордовых, кремовых, бежевых и серых тонах. Вес 2,2 кг/м². Об остатке и цене спросите в WhatsApp.",
+    "fr": "Tapis polyester disponible en stock, livraison immédiate. Motifs classiques à médaillon, scènes de chasse, modernes vieillis et ondulés, dans des tons bleu marine, bordeaux, crème, beige et gris. Poids 2,2 kg/m². Demandez-nous le stock actuel et le prix sur WhatsApp.",
+    "ka": "პოლიესტერის ხალიჩა მარაგშია, მიწოდება დაუყოვნებლივ. კლასიკური მედალიონიანი, სანადირო სცენების, თანამედროვე დაძველებული და ტალღოვანი ნახატები მუქ ლურჯ, შინდისფერ, კრემისფერ, ბეჟ და ნაცრისფერ ტონებში. წონა 2,2 კგ/მ². მარაგისა და ფასის შესახებ გვკითხეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ]
+}

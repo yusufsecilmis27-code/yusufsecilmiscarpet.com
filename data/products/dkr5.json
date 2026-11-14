@@ -1,0 +1,45 @@
+{
+  "code": "DKR5",
+  "category": "loop",
+  "colors": [
+    "blue",
+    "grey",
+    "cream",
+    "white"
+  ],
+  "sizes": [
+    "160x230 cm"
+  ],
+  "weight_gsm": 1800,
+  "badge": {
+    "tr": "Spot · Hazır Stok",
+    "en": "In Stock · Ready to Ship",
+    "ar": "متوفر في المخزون · جاهز للشحن",
+    "ru": "В наличии · Готово к отгрузке",
+    "fr": "En stock · Prêt à expédier",
+    "ka": "მარაგშია · მზადაა გასაგზავნად"
+  },
+  "name": {
+    "tr": "İskandinav Loop Halı",
+    "en": "Scandinavian Loop Rug",
+    "ar": "سجاد لوب إسكندنافي",
+    "ru": "Скандинавский петлевой ковёр",
+    "fr": "Tapis bouclette scandinave",
+    "ka": "სკანდინავიური მარყუჟოვანი ხალიჩა"
+  },
+  "desc": {
+    "tr": "İskandinav tarzı loop (ilmekli) halı. Kabartmalı, sade dokular; lacivert-beyaz çizgili, gri geometrik ve krem karolu modeller. Spot ürün, mevcut stoktan hemen teslim edilir. Stok durumunu ve fiyatı WhatsApp'tan sorun.",
+    "en": "Scandinavian-style loop pile rug with embossed, minimal textures: navy-and-white striped, grey geometric and cream checked models. Available from stock for immediate delivery. Ask us on WhatsApp for current stock and price.",
+    "ar": "سجاد لوب (بحلقات) بالطراز الإسكندنافي بملمس بارز وبسيط: موديلات مخططة كحلي وأبيض، وهندسية رمادية، ومربعات كريمية. متوفر في المخزون للتسليم الفوري. اسألنا عبر واتساب عن المخزون الحالي والسعر.",
+    "ru": "Петлевой ковёр в скандинавском стиле с рельефной лаконичной фактурой: модели в тёмно-синюю и белую полоску, серые геометрические и кремовые в клетку. В наличии на складе, отгрузка сразу. Об актуальном остатке и цене спросите в WhatsApp.",
+    "fr": "Tapis bouclette de style scandinave aux textures en relief et épurées : modèles rayés bleu marine et blanc, géométriques gris et à carreaux crème. Disponible en stock pour une livraison immédiate. Demandez-nous le stock actuel et le prix sur WhatsApp.",
+    "ka": "სკანდინავიური სტილის მარყუჟოვანი ხალიჩა რელიეფური, მინიმალისტური ტექსტურით: მუქი ლურჯი-თეთრი ზოლიანი, ნაცრისფერი გეომეტრიული და კრემისფერი უჯრედებიანი მოდელები. ხელმისაწვდომია მარაგიდან, დაუყოვნებლივი მიწოდებით. მიმდინარე მარაგისა და ფასის შესახებ გვკითხეთ WhatsApp-ზე."
+  },
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ]
+}

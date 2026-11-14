@@ -1,0 +1,58 @@
+{
+  "code": "DKR9",
+  "category": "sisal",
+  "material": "polyester",
+  "contain": true,
+  "colors": [
+    "beige",
+    "brown",
+    "blue",
+    "cream",
+    "grey",
+    "black"
+  ],
+  "sizes": [
+    "80x150 cm",
+    "80x300 cm",
+    "100x200 cm",
+    "100x300 cm",
+    "120x180 cm",
+    "160x230 cm",
+    "200x290 cm",
+    "240x340 cm"
+  ],
+  "weight_text": "1,2 – 1,3 kg/m²",
+  "badge": {
+    "tr": "Spot · Hazır Stok",
+    "en": "In Stock · Ready to Ship",
+    "ar": "متوفر في المخزون · جاهز للشحن",
+    "ru": "В наличии · Готово к отгрузке",
+    "fr": "En stock · Prêt à expédier",
+    "ka": "მარაგშია · მზადაა გასაგზავნად"
+  },
+  "name": {
+    "tr": "Sisal Halı",
+    "en": "Sisal Rug",
+    "ar": "سجاد سيزال",
+    "ru": "Ковёр сизаль",
+    "fr": "Tapis sisal",
+    "ka": "სიზალის ხალიჩა"
+  },
+  "desc": {
+    "tr": "Polyester sisal halı; düz dokuma, sisal görünümlü. Çerçeveli, çizgili, çiçekli, etnik ve geometrik desenler; bej, kahve, mavi, krem ve füme tonlarında. Spot ürün: mevcut stoktan hemen teslim edilir. Yolluk ve salon ebatları mevcuttur. Stok durumunu ve fiyatı WhatsApp'tan sorun.",
+    "en": "Polyester sisal rug: flat-woven with a sisal look. Bordered, striped, floral, ethnic and geometric designs in beige, brown, blue, cream and charcoal tones. Available from stock for immediate delivery, in runner and room sizes. Ask us on WhatsApp for current stock and price.",
+    "ar": "سجاد سيزال بوليستر منسوج مسطح بمظهر السيزال. نقوش بإطار ومخططة وزهرية وإثنية وهندسية، بدرجات البيج والبني والأزرق والكريمي والفحمي. متوفر في المخزون للتسليم الفوري، بمقاسات الممرات والغرف. اسألنا عبر واتساب عن المخزون الحالي والسعر.",
+    "ru": "Ковёр сизаль из полиэстера: безворсовое плетение с фактурой сизаля. Рисунки с каймой, полосатые, цветочные, этнические и геометрические, в бежевых, коричневых, синих, кремовых и графитовых тонах. В наличии, отгрузка сразу; есть размеры дорожек и ковров. Об остатке и цене спросите в WhatsApp.",
+    "fr": "Tapis sisal polyester tissé à plat, aspect sisal. Motifs à bordure, rayés, floraux, ethniques et géométriques, dans des tons beige, marron, bleu, crème et anthracite. Disponible en stock pour une livraison immédiate, en formats couloir et pièce. Demandez-nous le stock actuel et le prix sur WhatsApp.",
+    "ka": "პოლიესტერის სიზალის ხალიჩა, ბრტყელი ქსოვის, სიზალის იერით. ჩარჩოიანი, ზოლიანი, ყვავილოვანი, ეთნიკური და გეომეტრიული ნახატები ბეჟ, ყავისფერ, ლურჯ, კრემისფერ და გრაფიტისფერ ტონებში. მარაგშია, მიწოდება დაუყოვნებლივ; ხელმისაწვდომია ბილიკისა და ოთახის ზომები. მარაგისა და ფასის შესახებ გვკითხეთ WhatsApp-ზე."
+  },
+  "images": [
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "1.jpg"
+  ]
+}

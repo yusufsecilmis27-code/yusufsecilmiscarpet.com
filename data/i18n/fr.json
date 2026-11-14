@@ -1,0 +1,310 @@
+{
+  "langName": "Français",
+  "dir": "ltr",
+  "ogLocale": "fr_FR",
+  "topbar": "Vente en gros et export · Sans minimum de commande · Gaziantep, Turquie",
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "wholesale": "Gros et export",
+    "sourcing": "Approvisionnement et qualité",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "lang": "Langue"
+  },
+  "cta": {
+    "wa": "Demander le prix sur WhatsApp",
+    "browse": "Voir les produits",
+    "details": "Détails",
+    "quote": "Demander un devis",
+    "call": "Appeler",
+    "allCats": "Voir toutes les catégories",
+    "directions": "Itinéraire",
+    "send": "Envoyer via WhatsApp"
+  },
+  "home": {
+    "metaTitle": "Grossiste de tapis turcs à Gaziantep | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Tapis turcs en gros depuis Gaziantep : tapis de mosquée, polypropylène, polyester, shaggy et plus. Sans minimum de commande, expédition dans le monde entier.",
+    "eyebrow": "TAPIS EN GROS, DE GAZIANTEP AU MONDE ENTIER",
+    "h1": "Les tapis de nombreux fabricants, un seul fournisseur.",
+    "lead": "Nous fournissons en gros 15 familles de produits depuis Gaziantep, du tapis de mosquée aux tapis polypropylène et polyester, et nous expédions partout dans le monde. Commandez d'une seule balle à un conteneur complet.",
+    "trust": [
+      "Sans minimum de commande",
+      "15 familles de produits",
+      "Départ entrepôt, au port ou à domicile"
+    ],
+    "catsEyebrow": "FAMILLES DE PRODUITS",
+    "catsTitle": "Les catégories les plus demandées",
+    "newTitle": "Nouveautés",
+    "newEyebrow": "NOUVEAU"
+  },
+  "why": {
+    "title": "Quatre atouts qui simplifient l'achat en gros",
+    "items": [
+      [
+        "Un large choix, une seule source",
+        "Achetez auprès de nombreux fabricants de Gaziantep en une seule commande, avec un seul interlocuteur."
+      ],
+      [
+        "Sans minimum de commande",
+        "Commandez une seule balle ou un conteneur de modèles variés."
+      ],
+      [
+        "Expédition flexible",
+        "Départ entrepôt, livraison au port ou à votre porte. La logistique est facturée séparément."
+      ],
+      [
+        "Nous parlons votre langue",
+        "Nous répondons directement en turc, en anglais et en arabe, et avec une aide à la traduction dans les autres langues."
+      ]
+    ]
+  },
+  "who": {
+    "eyebrow": "NOS CLIENTS",
+    "title": "La solution adaptée à votre activité",
+    "items": [
+      [
+        "Importateurs et grossistes",
+        "Réunissez 15 familles de produits dans un seul conteneur ou une seule commande."
+      ],
+      [
+        "Magasins de tapis",
+        "Diversifiez votre offre avec des modèles variés en petites quantités."
+      ],
+      [
+        "Mosquées, associations et fondations",
+        "Envoyez-nous le plan ; nous calculons la surface et fournissons le tapis de mosquée sur mesure."
+      ],
+      [
+        "Hôtels et entreprises de projets",
+        "Devis par projet pour les grandes surfaces en rouleau et les dimensions spéciales."
+      ]
+    ]
+  },
+  "steps": {
+    "title": "Commander en quatre étapes",
+    "items": [
+      [
+        "Choisissez les produits",
+        "Notez les codes des modèles qui vous intéressent dans le catalogue."
+      ],
+      [
+        "Demandez le prix sur WhatsApp",
+        "Le code du produit est ajouté au message et nous vous envoyons le prix actuel."
+      ],
+      [
+        "Confirmez la commande",
+        "Nous précisons ensemble les quantités, les dimensions et les conditions de paiement."
+      ],
+      [
+        "Chargement et expédition",
+        "Nous chargeons selon le mode de livraison que vous choisissez."
+      ]
+    ]
+  },
+  "band": {
+    "title": "Écrivez-nous pour la liste de prix actuelle",
+    "text": "Indiquez simplement la famille de produits souhaitée et votre pays."
+  },
+  "products": {
+    "metaTitle": "Catalogue de tapis en gros | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Catalogue de tapis en gros en 15 catégories : tapis de mosquée, tapis de prière, polypropylène, polyester, shaggy, kilims, tapis enfant et plus.",
+    "h1": "Catalogue de tapis en gros",
+    "lead": "Filtrez les produits de 15 catégories par catégorie, matière et couleur. Touchez le bouton WhatsApp d'un produit pour connaître son prix.",
+    "allProducts": "Tous les produits"
+  },
+  "cat": {
+    "metaTitle": "{name} en gros depuis la Turquie | Yusuf Seçilmiş Carpet",
+    "metaDesc": "{name} en gros depuis Gaziantep, Turquie. Sans minimum de commande, expédition à l'export. Écrivez-nous sur WhatsApp pour les prix actuels.",
+    "h1": "{name} en gros",
+    "lead": "Nous fournissons en gros la catégorie « {name} » depuis Gaziantep. Il n'y a pas de minimum de commande ; touchez le bouton WhatsApp d'un produit pour connaître le prix actuel."
+  },
+  "filter": {
+    "title": "Filtres",
+    "category": "CATÉGORIE",
+    "material": "MATIÈRE",
+    "color": "COULEUR",
+    "search": "Code ou nom du produit",
+    "none": "Aucun produit ne correspond à ces filtres.",
+    "empty": "Les produits de cette catégorie seront bientôt ajoutés. Écrivez-nous sur WhatsApp pour les modèles actuels.",
+    "count": "{n} produits",
+    "reset": "Effacer les filtres",
+    "helpTitle": "Vous ne trouvez pas le motif recherché ?",
+    "helpText": "Envoyez-nous une photo, nous trouverons un modèle similaire."
+  },
+  "product": {
+    "metaTitle": "{name} – {cat} en gros | Yusuf Seçilmiş Carpet",
+    "code": "Code",
+    "colors": "COULEURS DISPONIBLES",
+    "sizes": "DIMENSIONS",
+    "specs": "CARACTÉRISTIQUES",
+    "material": "Matière",
+    "pile": "Hauteur du poil",
+    "weight": "Poids",
+    "backing": "Dossier",
+    "packing": "Conditionnement",
+    "origin": "Origine",
+    "originValue": "Turquie (Gaziantep)",
+    "waTitle": "Écrivez-nous pour le prix de gros",
+    "waNote": "Ce message s'ouvre prêt dans WhatsApp, avec le code du produit.",
+    "related": "Produits similaires",
+    "photo": "Photo",
+    "perks": [
+      [
+        "Sans minimum de commande",
+        "D'une seule balle à un conteneur."
+      ],
+      [
+        "Expédition flexible",
+        "Départ entrepôt, au port ou à domicile."
+      ],
+      [
+        "Commandes mixtes",
+        "Réunissez plusieurs familles de produits dans un seul envoi."
+      ]
+    ],
+    "reeds": "Densité (reeds)",
+    "videos": "Vidéos"
+  },
+  "wa": {
+    "product": "Bonjour, je souhaite connaître le prix de gros pour {name}, code {code}.",
+    "general": "Bonjour, je souhaite des informations sur vos prix de tapis en gros.",
+    "form": "Bonjour, je vous écris depuis votre site web."
+  },
+  "wholesale": {
+    "metaTitle": "Vente de tapis en gros et export depuis la Turquie | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Vente de tapis en gros et export depuis Gaziantep, Turquie. Sans minimum de commande ; départ entrepôt, au port ou à domicile. Pour importateurs, magasins, mosquées et projets.",
+    "eyebrow": "VENTE EN GROS ET EXPORT",
+    "h1": "D'une balle à un conteneur, de Gaziantep jusqu'à votre porte.",
+    "lead": "Nous vendons en gros en Turquie et à l'export. Nous n'imposons aucune limite de quantité et chargeons selon le mode de livraison que vous préférez.",
+    "whoTitle": "Comment nous travaillons avec chaque client",
+    "deliveryTitle": "Modes de livraison",
+    "deliveryNote": "Nous chargeons selon vos besoins. Le transport et la logistique sont un service facturé séparément du prix des produits.",
+    "delivery": [
+      [
+        "DÉPART ENTREPÔT",
+        "Enlèvement par votre véhicule",
+        "Les marchandises sont emballées et chargées sur votre véhicule dans notre entrepôt de Gaziantep."
+      ],
+      [
+        "AU PORT",
+        "Au port ou au poste-frontière",
+        "Nous livrons la marchandise au port ou au poste de douane convenu."
+      ],
+      [
+        "À DOMICILE",
+        "Jusqu'à votre adresse",
+        "Expédition par route ou par mer jusqu'à l'adresse dans votre pays."
+      ]
+    ],
+    "regionsTitle": "Régions desservies",
+    "regions": [
+      "Irak, Jordanie, Syrie et pays arabes",
+      "Tunisie et Afrique",
+      "Pays turcophones",
+      "Russie, Ukraine, Biélorussie",
+      "Géorgie et pays voisins",
+      "Europe",
+      "Amériques"
+    ],
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      [
+        "Avez-vous un minimum de commande ?",
+        "Non. Vous pouvez commander une seule balle ou un conteneur de modèles variés."
+      ],
+      [
+        "Comment obtenir les prix ?",
+        "Nous n'affichons pas les prix sur le site. Touchez le bouton WhatsApp de la page produit ; le code du produit est ajouté au message et nous vous envoyons le prix de gros actuel."
+      ],
+      [
+        "Puis-je réunir plusieurs familles de produits dans une commande ?",
+        "Oui. Vous pouvez réunir des produits de différentes catégories dans une seule commande et un seul envoi."
+      ],
+      [
+        "Dans quelles langues puis-je vous écrire ?",
+        "Nous répondons directement en turc, en anglais et en arabe, et avec une aide à la traduction dans les autres langues."
+      ]
+    ],
+    "formTitle": "Demandez un devis de gros",
+    "formNote": "Vos informations sont préparées sous forme de message WhatsApp ; WhatsApp s'ouvre pour l'envoi."
+  },
+  "sourcing": {
+    "metaTitle": "Approvisionnement et qualité | Yusuf Seçilmiş Carpet",
+    "metaDesc": "Yusuf Seçilmiş Carpet s'approvisionne auprès des fabricants de Gaziantep et fournit des tapis en gros en Turquie et dans le monde.",
+    "eyebrow": "APPROVISIONNEMENT ET QUALITÉ",
+    "h1": "Depuis la capitale du tapis, avec un seul interlocuteur.",
+    "lead": "Yusuf Seçilmiş Carpet est un fournisseur de tapis en gros basé à Gaziantep. Nous achetons auprès des fabricants et fournissons des acheteurs en Turquie et à l'étranger.",
+    "sections": [
+      [
+        "Un seul point d'approvisionnement",
+        "Nous réunissons les produits de nombreux fabricants de Gaziantep dans un seul catalogue. Vous achetez 15 familles de produits en une seule commande, sans traiter avec chaque usine."
+      ],
+      [
+        "Expérience nationale et à l'export",
+        "Nous travaillons en gros depuis des années, en Turquie comme à l'export. Nous connaissons les attentes des acheteurs de différents pays en matière de produits, d'emballage et d'expédition."
+      ],
+      [
+        "Emballage et chargement",
+        "Les marchandises sont emballées en balles ou en rouleaux. Nous chargeons départ entrepôt, au port ou à domicile."
+      ]
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contact | Yusuf Seçilmiş Carpet – Gaziantep, Turquie",
+    "metaDesc": "Contactez Yusuf Seçilmiş Carpet : WhatsApp +90 544 545 29 67, Başpınar OSB, Şehitkamil/Gaziantep, Turquie. Écrivez-nous pour les prix de tapis en gros.",
+    "eyebrow": "CONTACT",
+    "h1": "Écrivez-nous, parlons prix.",
+    "lead": "WhatsApp est le moyen le plus rapide. Nous répondons directement en turc, en anglais et en arabe, et avec une aide à la traduction dans les autres langues.",
+    "waLabel": "ÉCRIVEZ-NOUS SUR WHATSAPP",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "formTitle": "Envoyer un message",
+    "name": "Nom / société",
+    "country": "Pays",
+    "reach": "Numéro WhatsApp ou e-mail",
+    "group": "Famille de produits souhaitée",
+    "message": "Quantité et remarques"
+  },
+  "footer": {
+    "tagline": "Fournisseur de tapis en gros basé à Gaziantep, Turquie.",
+    "products": "Produits",
+    "company": "Entreprise"
+  },
+  "blog": {
+    "title": "Blog",
+    "lead": "Guides pour les acheteurs de tapis en gros.",
+    "read": "Lire l'article"
+  },
+  "notFound": "Page introuvable",
+  "materials": {
+    "acrylic": "Acrylique",
+    "pp": "Polypropylène",
+    "polyester": "Polyester",
+    "cotton": "Coton",
+    "sisal": "Sisal",
+    "mixed": "Mélange",
+    "ppflosh": "Polypropylène + polyester flosh",
+    "acrylic_pp": "Acrylique ou polypropylène"
+  },
+  "colorNames": {
+    "red": "Rouge",
+    "green": "Vert",
+    "blue": "Bleu",
+    "beige": "Beige",
+    "brown": "Marron",
+    "grey": "Gris",
+    "cream": "Crème",
+    "black": "Noir",
+    "multi": "Multicolore",
+    "white": "Blanc",
+    "pink": "Rose",
+    "yellow": "Jaune",
+    "orange": "Orange",
+    "purple": "Lilas",
+    "turquoise": "Turquoise",
+    "gold": "Or / moutarde"
+  }
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "mosque",
+    "pattern": "p6",
+    "slug": {
+      "tr": "cami-halisi",
+      "en": "mosque-carpets",
+      "fr": "tapis-de-mosquee"
+    },
+    "name": {
+      "tr": "Cami Halısı",
+      "en": "Mosque Carpets",
+      "ar": "سجاد المساجد",
+      "ru": "Ковры для мечети",
+      "fr": "Tapis de mosquée",
+      "ka": "მეჩეთის ხალიჩები"
+    }
+  },
+  {
+    "id": "prayer",
+    "pattern": "p4",
+    "slug": {
+      "tr": "seccade",
+      "en": "prayer-rugs",
+      "fr": "tapis-de-priere"
+    },
+    "name": {
+      "tr": "Seccade",
+      "en": "Prayer Rugs",
+      "ar": "سجاد الصلاة",
+      "ru": "Молитвенные коврики",
+      "fr": "Tapis de prière",
+      "ka": "სალოცავი ხალიჩები"
+    }
+  },
+  {
+    "id": "pp",
+    "pattern": "p3",
+    "slug": {
+      "tr": "polip-hali",
+      "en": "polypropylene-rugs",
+      "fr": "tapis-polypropylene"
+    },
+    "name": {
+      "tr": "Polip Halı",
+      "en": "Polypropylene Rugs",
+      "ar": "سجاد بولي بروبلين",
+      "ru": "Ковры из полипропилена",
+      "fr": "Tapis polypropylène",
+      "ka": "პოლიპროპილენის ხალიჩები"
+    }
+  },
+  {
+    "id": "polyester",
+    "pattern": "p1",
+    "slug": {
+      "tr": "polyester-hali",
+      "en": "polyester-rugs",
+      "fr": "tapis-polyester"
+    },
+    "name": {
+      "tr": "Polyester Halı",
+      "en": "Polyester Rugs",
+      "ar": "سجاد بوليستر",
+      "ru": "Ковры из полиэстера",
+      "fr": "Tapis polyester",
+      "ka": "პოლიესტერის ხალიჩები"
+    }
+  },
+  {
+    "id": "acrylic",
+    "pattern": "p7",
+    "slug": {
+      "tr": "akrilik-hali",
+      "en": "acrylic-rugs",
+      "fr": "tapis-acrylique"
+    },
+    "name": {
+      "tr": "Akrilik Halı",
+      "en": "Acrylic Rugs",
+      "ar": "سجاد أكريليك",
+      "ru": "Акриловые ковры",
+      "fr": "Tapis acrylique",
+      "ka": "აკრილის ხალიჩები"
+    }
+  },
+  {
+    "id": "shaggy",
+    "pattern": "p2",
+    "slug": {
+      "tr": "shaggy-hali",
+      "en": "shaggy-rugs",
+      "fr": "tapis-shaggy"
+    },
+    "name": {
+      "tr": "Shaggy Halı",
+      "en": "Shaggy Rugs",
+      "ar": "سجاد شاجي",
+      "ru": "Ковры шегги",
+      "fr": "Tapis shaggy",
+      "ka": "შაგი ხალიჩები"
+    }
+  },
+  {
+    "id": "sisal",
+    "pattern": "p8",
+    "slug": {
+      "tr": "sisal-hali",
+      "en": "sisal-rugs",
+      "fr": "tapis-sisal"
+    },
+    "name": {
+      "tr": "Sisal Halı",
+      "en": "Sisal Rugs",
+      "ar": "سجاد سيزال",
+      "ru": "Ковры сизаль",
+      "fr": "Tapis sisal",
+      "ka": "სიზალის ხალიჩები"
+    }
+  },
+  {
+    "id": "cross",
+    "pattern": "p3",
+    "slug": {
+      "tr": "cross-dokuma",
+      "en": "cross-woven-rugs",
+      "fr": "tapis-tissage-croise"
+    },
+    "name": {
+      "tr": "Cross Dokuma Halı",
+      "en": "Cross-Woven Rugs",
+      "ar": "سجاد منسوج متقاطع",
+      "ru": "Ковры перекрёстного плетения",
+      "fr": "Tapis tissage croisé",
+      "ka": "ჯვარედინი ქსოვის ხალიჩები"
+    }
+  },
+  {
+    "id": "loop",
+    "pattern": "p2",
+    "slug": {
+      "tr": "iskandinav-loop-hali",
+      "en": "scandinavian-loop-rugs",
+      "fr": "tapis-bouclette-scandinave"
+    },
+    "name": {
+      "tr": "İskandinav Loop Halı",
+      "en": "Scandinavian Loop Rugs",
+      "ar": "سجاد لوب إسكندنافي",
+      "ru": "Скандинавские петлевые ковры",
+      "fr": "Tapis bouclette scandinave",
+      "ka": "სკანდინავიური მარყუჟოვანი ხალიჩები"
+    }
+  },
+  {
+    "id": "kilim",
+    "pattern": "p4",
+    "slug": {
+      "tr": "kilim",
+      "en": "kilims",
+      "fr": "kilims"
+    },
+    "name": {
+      "tr": "Kilim",
+      "en": "Kilims",
+      "ar": "كليم",
+      "ru": "Килимы",
+      "fr": "Kilims",
+      "ka": "კილიმები"
+    }
+  },
+  {
+    "id": "kids",
+    "pattern": "p5",
+    "slug": {
+      "tr": "cocuk-halisi",
+      "en": "kids-rugs",
+      "fr": "tapis-enfant"
+    },
+    "name": {
+      "tr": "Çocuk Halısı",
+      "en": "Kids' Rugs",
+      "ar": "سجاد أطفال",
+      "ru": "Детские ковры",
+      "fr": "Tapis enfant",
+      "ka": "საბავშვო ხალიჩები"
+    }
+  },
+  {
+    "id": "puzzle",
+    "pattern": "p5",
+    "slug": {
+      "tr": "yapboz-hali",
+      "en": "puzzle-rugs",
+      "fr": "tapis-puzzle"
+    },
+    "name": {
+      "tr": "Yapboz Halı",
+      "en": "Puzzle Rugs",
+      "ar": "سجاد بازل",
+      "ru": "Ковры-пазлы",
+      "fr": "Tapis puzzle",
+      "ka": "ფაზლის ხალიჩები"
+    }
+  },
+  {
+    "id": "nonslip",
+    "pattern": "p7",
+    "slug": {
+      "tr": "dijital-kaymaz-taban-hali",
+      "en": "digital-non-slip-rugs",
+      "fr": "tapis-imprimes-antiderapants"
+    },
+    "name": {
+      "tr": "Dijital Kaymaz Taban Halı",
+      "en": "Digital Print Non-Slip Rugs",
+      "ar": "سجاد مطبوع رقمياً بقاعدة مانعة للانزلاق",
+      "ru": "Ковры с цифровой печатью на нескользящей основе",
+      "fr": "Tapis imprimés antidérapants",
+      "ka": "ციფრული ბეჭდვის არასრიალა ხალიჩები"
+    }
+  },
+  {
+    "id": "carmat",
+    "pattern": "p3",
+    "slug": {
+      "tr": "dijital-arac-paspasi",
+      "en": "digital-car-mats",
+      "fr": "tapis-de-voiture-imprimes"
+    },
+    "name": {
+      "tr": "Dijital Araç Paspası",
+      "en": "Digital Print Car Mats",
+      "ar": "دعاسات سيارات مطبوعة رقمياً",
+      "ru": "Автоковрики с цифровой печатью",
+      "fr": "Tapis de voiture imprimés",
+      "ka": "ციფრული ბეჭდვის ავტოხალიჩები"
+    }
+  },
+  {
+    "id": "tufting",
+    "pattern": "p8",
+    "slug": {
+      "tr": "tafting-rulo",
+      "en": "tufted-carpet-rolls",
+      "fr": "moquette-tuftee-rouleau"
+    },
+    "name": {
+      "tr": "Tafting Rulo",
+      "en": "Tufted Carpet Rolls",
+      "ar": "موكيت تافتنج رول",
+      "ru": "Тафтинговое покрытие в рулонах",
+      "fr": "Moquette tuftée en rouleau",
+      "ka": "ტაფტინგის რულონები"
+    }
+  },
+  {
+    "id": "matroll",
+    "pattern": "p2",
+    "slug": {
+      "tr": "paspas-rulo",
+      "en": "mat-rolls",
+      "fr": "rouleaux-paillassons"
+    },
+    "name": {
+      "tr": "4'lü Paspas Rulo",
+      "en": "Mat Rolls (4-Pack)",
+      "ar": "رولات دعاسات (4 قطع)",
+      "ru": "Коврики в рулонах (по 4 шт.)",
+      "fr": "Rouleaux de paillassons (lot de 4)",
+      "ka": "ფეხსაწმენდი რულონები (4 ცალი)"
+    }
+  }
+]
